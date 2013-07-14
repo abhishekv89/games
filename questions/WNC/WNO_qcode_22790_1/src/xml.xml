@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<application name="percentage">
+    <english>
+        <questions>
+        </questions>
+        <prompts>
+            <prompt name="No1" text="num1" page="page1" voice="" />
+            <prompt name="No2" text="num2" page="page1" voice="" />
+	  
+	 <prompt name="text1" text="Multiply #num1# by #num2# &lt;br&gt; Multiply #num3# by #num4# &lt;br&gt;  Add Their Sum" page="page1" voice="" />
+         
+         <prompt name="text2" text="Multiply #num5# by #num6# &lt;br&gt; Multiply #num7# by #num8#&lt;br&gt; Add Their Sum" page="page1" voice="" />
+         
+         <prompt name="text3" text="Multiply #num9# by #num10# &lt;br&gt;  Multiply #num11# by #num12#  &lt;br&gt;Add Their Sum" page="page1" voice="" />
+	
+	 
+        </prompts>
+        <instructions>
+        </instructions>
+        <miscellaneous>
+        </miscellaneous>
+    </english>
+    <hindi>
+        <questions>
+        </questions>
+        <prompts>
+            <prompt name="No1" text="_num1_" page="page1" voice="" />
+            <prompt name="No2" text="_num2_" page="page1" voice="" />
+            
+        </prompts>
+        <instructions>
+        </instructions>
+        <miscellaneous>
+        </miscellaneous>
+    </hindi>
+    <gujarati>
+        <questions>
+        </questions>
+        <prompts>
+            <prompt name="pname" text="#name# ???????" page="" voice="" />
+            <prompt name="ename" text="#name# ?????? ?????? ???  " page="" voice="" />
+        </prompts>
+        <instructions>
+        </instructions>
+        <miscellaneous>
+        </miscellaneous>
+    </gujarati>
+</application>

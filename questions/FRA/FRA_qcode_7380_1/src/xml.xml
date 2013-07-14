@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<application name="percentage">
+	<english>
+		<questions>
+		</questions>
+		<prompts>
+			 <prompt name="text1" text="'s Chocolate" page="page1" voice=""/>
+	
+		</prompts>
+	
+		<instructions>
+		
+		</instructions>
+	
+		<miscellaneous>
+		
+		</miscellaneous>
+	</english>
+	<hindi>
+		<questions>
+		</questions>
+			 <prompt name="text1" text="'है चॉकलेट" page="page1" voice=""/>
+		
+		<instructions>
+		
+		</instructions>
+	
+		<miscellaneous>
+		
+		</miscellaneous>
+
+	</hindi>
+
+	<gujarati>
+		<questions>
+		</questions>
+		<prompts>
+			 <prompt name="text1" text="'ઓ ચોકોલેટ" page="page1" voice=""/>
+		
+		
+		</prompts>
+	
+		<instructions>
+		
+		</instructions>
+	
+		<miscellaneous>
+		
+		</miscellaneous>
+	</gujarati>
+</application>

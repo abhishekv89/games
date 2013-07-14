@@ -1,0 +1,50 @@
+.pizza{
+	background:url('../assets/pizza.png');
+	height:133px;
+	width:133px;
+	position:absolute;
+}
+.replay{
+	background: url('../assets/replay.png') no-repeat -7px -14px;
+	width: 17px;
+	height: 16px;
+	top: 350px;
+	left: 400px;
+	cursor: pointer;
+	opacity: 100;
+}
+#container { 
+	width:auto;
+	height:140px;
+	overflow:hidden;
+	-webkit-transform:scale(1);
+	-webkit-transform-origin : left top;
+	-moz-transform :scale(1);
+	-moz-transform-origin : left top;
+	-ms-transform :scale(1);
+	-ms-transform-origin : left top;
+	-o-transform :scale(1);
+	-o-transform-origin : left top;
+	transform :scale(1);
+	transform-origin : left top;
+	margin-top:2em;
+	margin-left:2em;
+}
+#content{
+	overflow:auto;
+}
+body {	
+	background-repeat:no-repeat;
+	font-family:"Comic Sans MS";
+	font-size:14px;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none; 
+	overflow:hidden;
+}
+html,body,div,p,span,canvas{
+	margin:0;
+	padding:0;
+}

@@ -1,0 +1,219 @@
+html,body,div,p,span,canvas{
+	margin:0;
+	padding:0;
+}
+
+body {	
+	background-repeat:no-repeat;
+	font-family:"Comic Sans MS";
+	font-size:15px;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none; 
+	overflow:hidden;
+}
+
+#replayButton{
+
+	background: url('../../../../assets/replay.png');
+	width: 17px;
+	height: 16px;
+	cursor: pointer;
+	opacity: 1;
+	clear: both;
+    position: absolute;
+    z-index: 2000;
+	
+	
+}
+
+#container
+{
+
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	border: 2px solid black;
+	border-radius: 10px;
+	-webkit-transform-origin : left top;
+	-moz-transform :scale(1);
+	-moz-transform-origin : left top;
+	-ms-transform :scale(1);
+	-ms-transform-origin : left top;
+	-o-transform :scale(1);
+	-o-transform-origin : left top;
+	transform :scale(1);
+	transform-origin : left top;
+
+}
+.loader {	
+	color:#2187e7;
+	width:800px;
+	height:600px;
+	background:#00000F;
+	font-weight:bold;
+	font-size:18px;
+	font-family:Comic Sans MS;
+	
+}
+.loading-text
+{
+	display:inline-block;
+	position:absoulte;
+	margin-top:250px;
+	background:transparent;
+	text-shadow:0px 0px 2px  #FFFFFF;
+	transition: 0.2s tex-shadow;
+}
+
+.preloader {
+	background-color: rgba(0,0,0,0);
+	border:5px solid rgba(0,183,229,0.9);
+	opacity:.9;
+	border-right:5px solid rgba(0,0,0,0);
+	border-left:5px solid rgba(0,0,0,0);
+	border-radius:50px;
+	width:50px;
+	height:50px;
+	-moz-animation:spinPulse 1s infinite ease-in-out;
+	-webkit-animation:spinPulse 1s infinite linear;
+	-ms-animation:spinPulse 1s infinite linear;
+	
+}
+.preloader1 {
+	background-color: rgba(0,0,0,0);
+	border:5px solid rgba(0,183,229,0.9);
+	opacity:.9;
+	border-left:5px solid rgba(0,0,0,0);
+	border-right:5px solid rgba(0,0,0,0);
+	border-radius:50px;
+	box-shadow: 0 0 15px #2187e7; 
+	width:30px;
+	height:30px;
+	position:relative;
+	top:-50px;
+	-moz-animation:spinoffPulse 1s infinite linear;
+	-webkit-animation:spinoffPulse 1s infinite linear;
+	-ms-animation:spinoffPulse 1s infinite linear;
+}
+@-moz-keyframes spinPulse {
+	0% { -moz-transform:rotate(160deg); opacity:0; box-shadow:0 0 1px #2187e7;}
+	50% { -moz-transform:rotate(145deg); opacity:1; }
+	100% { -moz-transform:rotate(-320deg); opacity:0; }
+}
+@-moz-keyframes spinoffPulse {
+	0% { -moz-transform:rotate(0deg); }
+	100% { -moz-transform:rotate(360deg);  }
+}
+@-webkit-keyframes spinPulse {
+	0% { -webkit-transform:rotate(160deg); opacity:0; box-shadow:0 0 1px #2187e7; }
+	50% { -webkit-transform:rotate(145deg); opacity:1;}
+	100% { -webkit-transform:rotate(-320deg); opacity:0; }
+}
+@-webkit-keyframes spinoffPulse {
+	0% { -webkit-transform:rotate(0deg); }
+	100% { -webkit-transform:rotate(360deg); }
+}
+@-ms-keyframes spinPulse {
+	0% { -ms-transform:rotate(160deg); opacity:0; box-shadow:0 0 1px #2187e7;}
+	50% { -ms-transform:rotate(145deg); opacity:1; }
+	100% { -ms-transform:rotate(-320deg); opacity:0; }
+}
+@-ms-keyframes spinoffPulse {
+	0% { -ms-transform:rotate(0deg); }
+	100% { -ms-transform:rotate(360deg);  }
+}
+.pokemon
+{
+	background-image: url('../assets/pokemon.png');
+	width: 59px;
+	height: 49px;
+	
+}
+
+#linearContainer
+{
+	height: 95px;
+	position: absolute;
+	top: 100px;
+	left: 40px;
+}
+.envelope
+{
+	width: 109px;
+	height: 71px;
+	background-image: url('../assets/envelope.png');
+}
+#container1
+{
+	position: absolute;
+	top: 200px;
+	left: 50px;
+}
+#container2
+{
+	position: absolute;
+	top: 200px;
+	left: 500px;
+}
+#destContainer
+{
+	position: absolute;
+	top: 200px;
+	left: 40px;
+}
+.nameLabel
+{
+	position: absolute;
+	left: 40px;
+	top: 73px;
+	font-size: 20px;
+}
+.smallBox
+{
+	width: 62px;
+	height: 63px;
+	background-image: url('../assets/brownContainer.png');
+}
+.bigBox
+{
+	width: 150px;
+	height: 150px;
+	background: url('../assets/transContainer.png');
+	background-repeat: no-repeat;
+	background-size:150px 150px;
+}
+.yellowFlower
+{
+	width: 31px;
+	height: 30px;
+	background-image: url('../assets/flower.png');
+}
+.ball
+{
+	width: 18px;
+	height: 18px;
+	
+	background-image: url('../assets/ball.png');
+}
+.steelBall
+{
+	width: 21px;
+	height: 21px;
+	background-image: url('../assets/steelBall.png');
+}
+.blueContainer
+{
+	width: 62px;
+	height: 62px;
+	background-image: url('../assets/blueContainer.png');
+}
+.book
+{
+
+	width: 49px;
+	height: 42px;
+	background-image: url('../assets/book.png');
+}

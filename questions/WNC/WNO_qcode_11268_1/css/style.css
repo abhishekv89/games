@@ -1,0 +1,189 @@
+
+html,body,div,p,span,canvas{
+	margin:0;
+	padding:0;
+}
+
+body {	
+	background-repeat:no-repeat;
+	font-family:"Comic Sans MS";
+	font-size:14px;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none; 
+	overflow:hidden;
+}
+
+
+#container
+{
+	
+	margin-left: 1em;
+	-webkit-transform-origin : left top;
+	-moz-transform :scale(1);
+	-moz-transform-origin : left top;
+	-ms-transform :scale(1);
+	-ms-transform-origin : left top;
+	-o-transform :scale(1);
+	-o-transform-origin : left top;
+	transform :scale(1);
+	transform-origin : left top;
+	
+}
+
+
+
+
+#board
+{
+	background-image: url("../assets/bg.png");
+	width: 178;
+	height: 114;
+	display: inline;
+	position: absolute;
+	z-index: 1000;
+}
+
+#replayButton
+{
+	display: inline;
+	float: right;
+	background: url('../../../../assets/replay.png');
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+	opacity: 0;
+	clear: both;
+	top: 90px;
+	position: relative;
+}
+
+#c1
+{
+	background-image: url('../assets/coin.png');
+	width:27;
+	height: 27;
+	display: inline;
+	position: absolute;
+	z-index: 2000;
+	left: 63px;
+	opacity:1;
+}
+#c2
+{
+	background-image: url('../assets/coin.png');
+	width:27;
+	height: 27;
+	display: inline;
+	position: absolute;
+	z-index: 2000;
+	left: 88px;
+	top:7px;
+	opacity:1;
+}
+
+#c3
+{
+	background-image: url('../assets/coin.png');
+	width:27;
+	height: 27;
+	display: inline;
+	position: absolute;
+	z-index: 2000;
+	left: 111px;
+	top:14px;
+	opacity:1;
+}
+
+#c4
+{
+	background-image: url('../assets/coin.png');
+	width:27;
+	height: 27;
+	display: inline;
+	position: absolute;
+	z-index: 2000;
+	left: 133px;
+	top:20px;
+	opacity:1;
+}
+
+#c5
+{
+	background-image: url('../assets/coin.png');
+	width:27;
+	height: 27;
+	display: inline;
+	position: absolute;
+	z-index: 2000;
+	left: 47px;
+	top:22px;
+	opacity:1;
+}
+#c6
+{
+	background-image: url('../assets/coin.png');
+	width:27;
+	height: 27;
+	display: inline;
+	position: absolute;
+	z-index: 2000;
+	left: 78px;
+	top:30px;
+	opacity:1;
+}
+
+#c7
+{
+	background-image: url('../assets/coin.png');
+	width:27;
+	height: 27;
+	display: inline;
+	position: absolute;
+	z-index: 2000;
+	left: 110px;
+	top:38px;
+	opacity:1;
+}
+
+
+#c8
+{
+	background-image: url('../assets/coin.png');
+	width:27;
+	height: 27;
+	display: inline;
+	position: absolute;
+	z-index: 2000;
+	left: 25px;
+	top:42px;
+	opacity: 1;
+}
+
+#c9
+{
+	background-image: url('../assets/coin.png');
+	width:27;
+	height: 27;
+	display: inline;
+	position: absolute;
+	z-index: 2000;
+	left:54px;
+	top:52px;
+	opacity:1;
+}
+
+#c10
+{
+	background-image: url('../assets/coin.png');
+	width:27;
+	height: 27;
+	display: inline;
+	position: absolute;
+	z-index: 2000;
+	left:86px;
+	top:61px;
+	opacity:1;
+}

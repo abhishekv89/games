@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<application name="percentage">
+	<english>
+		<questions>
+		</questions>
+		<prompts>
+			 <prompt name="text" text="Piece used by tailor" page="page1" voice=""/>
+		
+		</prompts>
+	
+		<instructions>
+		
+		</instructions>
+	
+		<miscellaneous>
+		
+		</miscellaneous>
+	</english>
+	<hindi>
+		<questions>
+		</questions>
+			 <prompt name="text" text="टेलर द्वारा इस्तेमाल किया टुकड़ा" page="page1" voice=""/>
+		
+		<instructions>
+		
+		</instructions>
+	
+		<miscellaneous>
+		
+		</miscellaneous>
+
+	</hindi>
+
+	<gujarati>
+		<questions>
+		</questions>
+		<prompts>
+			 <prompt name="text" text="ટેલર દ્વારા ઉપયોગ ટુકડો" page="page1" voice=""/>
+
+		
+		</prompts>
+	
+		<instructions>
+		
+		</instructions>
+	
+		<miscellaneous>
+		
+		</miscellaneous>
+	</gujarati>
+</application>

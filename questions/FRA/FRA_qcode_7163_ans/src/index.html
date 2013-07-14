@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />	
+	<title>FRA_qcode_7163_ans</title>	
+	<link href="../css/style.css" rel="stylesheet" type="text/css" />
+	<script src="../../../../libs/jquery-1.7.1.min.js"></script>
+	<script src="../../../../libs/common.js"></script>
+	<script src="../../../../libs/loadxmldoc.js"></script>
+	<script src="../../../../libs/parameterPassingHtml5Ques.js"></script>
+	<script src="../libs/script.js"></script>	
+	<script>
+	var getParameters = getURLParameters();	
+	$(function(){
+		interactiveObj = new questionInteractive();
+		interactiveObj.loadimage();  		
+	});
+	</script>	
+	
+</head> 
+ <body onresize="containerResize();" onload="containerResize()">
+
+ 
+<div id="container" >
+<canvas id="myCanvas" class="canvas" width="700" height="100"></canvas>
+<div id="replayButton" class="replay" onclick="interactiveObj.animate()"></div>
+
+<div id="finishflag"></div>
+<div id="startflag"></div></div>
+</body>
+</html>	

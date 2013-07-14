@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />	
+	<title>FRA_qcode_6991_1</title>	
+	<link href="../css/style.css" rel="stylesheet" type="text/css" />
+	<script src="../../../../libs/jquery-1.7.1.min.js"></script>
+	<script src="../../../../libs/common.js"></script>
+	<script src="../../../../libs/loadxmldoc.js"></script>
+	<script src="../../../../libs/parameterPassingHtml5Ques.js"></script>
+	<script src="../libs/script.js"></script>	
+	<script src="../../../../libs/PxLoader.js"></script>
+	<script src="../../../../libs/PxLoaderImage.js"></script>
+	<script>
+	var getParameters = getURLParameters();
+	var language='xml.xml';	
+	$(function(){
+		interactiveObj = new questionInteractive();
+		var imageArray = new Array('image1.png','image2.png');
+		var loader = new PxLoader(); 
+		$.each(imageArray,function(key,value)
+		{
+             var pxImage = new PxLoaderImage('../assets/'+value); 
+			loader.add(pxImage); 
+		});
+		loader.addCompletionListener(function() 
+		{ 
+			   loadXML(language,function(){interactiveObj.init();});  		
+		}); 
+		loader.start();
+	});
+	</script>	
+	
+</head> 
+ <body onresize="resize();" onload="resize()">
+
+ 
+<div id="container" >
+<div id="text"></div>
+<canvas id="myCanvas" class="canvas" width="500" height="400"></canvas>
+<div id="replayButton" class="replay" onclick="interactiveObj.animate()"><img src="../../../../assets/replay.png" style="width: 31px;"><img></div>
+</div>
+</body>
+</html>	

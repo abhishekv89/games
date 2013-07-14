@@ -1,0 +1,497 @@
+html,body,div,p,span,canvas{
+	margin:0;
+	padding:0;
+}
+
+body
+ {	
+	background-repeat:no-repeat;
+	font-family:"Comic Sans MS";
+	font-size:14px;
+	
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none; 
+	overflow:hidden;
+}
+
+#replayButton{
+	display: inline;
+
+	background: url('../../../../assets/replay.png');
+	width: 17px;
+	height: 16px;
+	cursor: pointer;
+	clear: both;
+        position: absolute;
+        top:203px;
+	z-index: 2000;
+	left: 624px;
+}
+
+#container
+{
+	width: 660px;
+	height: 220px;
+	position: absolute;
+	-webkit-transform-origin : left top;
+	-moz-transform :scale(1);
+	-moz-transform-origin : left top;
+	-ms-transform :scale(1);
+	-ms-transform-origin : left top;
+	-o-transform :scale(1);
+	-o-transform-origin : left top;
+	transform :scale(1);
+	transform-origin : left top;
+
+}
+
+.canvas
+{
+	background-image: url("../assets/canvas.png");
+	position: absolute;
+	float: left;
+	z-index: 1000;
+	width: 301px;
+	height: 174px;
+	top:10px;
+	
+}
+
+#text
+{
+	position: absolute;
+	top: 10px;
+	left: 350px;
+	opacity: 1;
+	font-size: 18px;
+	color: #2e02fd;
+	font-family: Segoe UI;
+	width: 280px;
+	
+}
+
+#text1
+{
+	
+	position: absolute;
+	display: inline;
+	top: 90px;
+	left: 465px;
+	opacity: 0;
+	font-size: 18px;
+	color: #2e02fd;
+	font-family: Segoe UI;
+	
+	
+}
+
+
+#text2
+{
+	position: absolute;
+	display: inline;
+	top: 156px;
+	left: 255px;
+	opacity: 0;
+	font-size: 18px;
+	font-weight: bolder;
+	color: #2e02fd;
+	font-family: Segoe UI;
+	
+	
+}
+
+#text3
+{
+	position: absolute;
+	display: inline;
+	top: 131px;
+	left: 278px;
+	opacity: 0;
+	font-size: 18px;
+	font-weight: bolder;
+	color: #2e02fd;
+	font-family: Segoe UI;
+		
+	
+	
+}
+#stop
+{
+	position: absolute;
+	display: inline;
+	top: 68px;
+	left: 440px;
+	opacity: 0;
+	font-size: 24px;
+	font-weight: bolder;
+	color: #2e02fd;
+	font-family: Segoe UI;
+}
+
+
+#finaltext
+{
+	position: absolute;
+	display: inline;
+	top: 80px;
+	left: 304px;
+	opacity: 0;
+	font-size: 20px;
+	font-weight: bold;
+	color: #2e02fd;
+	font-family: Segoe UI;
+}
+
+#finaltext2
+{
+	position: absolute;
+	display: inline;
+	top: 0px;
+	left: 318px;
+	opacity: 0;
+	font-size: 18px;
+	color: #038f11;
+	font-family: Segoe UI;
+	width: 280px;
+	
+}
+#textAdditional
+{
+	position: absolute;
+	display: inline;
+	top: 0px;
+	left: 318px;
+	opacity: 0;
+	font-size: 18px;
+	color: #2e02fd;
+	font-family: Segoe UI;
+	width: 280px;
+	
+}
+
+#division
+{
+	position: absolute;
+	display: inline;
+	top: 68px;
+	left: 440px;
+	opacity: 0;
+	font-size: 24px;
+	font-weight: bolder;
+	color: #2e02fd;
+	font-family: Segoe UI;
+}
+
+#greenimage
+{
+	/*background-image: url("../assets/arrow.png");*/
+	position: absolute;
+	float: left;
+	z-index: 4000;
+	width: 226px;
+	height: 131px;
+	/*top: 53px;
+left: 50px;*/
+top: 53px;
+left: 50px;
+	opacity:0;
+}
+
+.upperhalf
+{
+	background-image: url("../assets/upper.png");
+	position: absolute;
+	float: left;
+	z-index: 5000;
+	width: 76px;
+	height: 44px;
+	
+}
+#upperhalf23
+{
+	position: absolute;
+	float: left;
+	top:53px;
+	left:149px;
+	z-index: 5000;
+	opacity:0;
+}
+
+.lowerhalf
+{
+	background-image: url("../assets/lower.png");
+	position: absolute;
+	float: left;
+	z-index: 5000;
+	width: 76px;
+	height: 44px;
+
+}
+
+#lowerhalf34
+{
+	position: absolute;
+	float: left;
+	top:98px;
+	left:174px;
+	z-index: 5000;
+	opacity:0;
+}
+
+#lowerhalf43
+{
+	position: absolute;
+	float: left;
+	top:140px;
+	left:99px;
+	z-index: 5000;
+	opacity:0;
+}
+
+#upperhalf32
+{
+	position: absolute;
+	float: left;
+	top:96px;
+	left:75px;
+	z-index: 5000;
+	opacity:0;
+}
+
+.square
+{
+	background-image: url("../assets/square.png");
+	position: absolute;
+	float: left;
+	z-index: 2000;
+	width: 76px;
+	height: 44px;
+	top:10px;
+}
+
+#square1
+{
+	position: absolute;
+	left: 75px;
+	z-index: 2000;
+	opacity:0;
+}
+#square2
+{
+	position: absolute;
+	left: 125px;
+	z-index: 2000;
+	opacity:0;
+}
+
+#square3
+{
+	position: absolute;
+	left: 175px;
+	z-index: 2000;
+	opacity:0;
+}
+
+#square4
+{
+	position: absolute;
+	left: 225px;
+	z-index: 2000;
+	opacity:0;
+}
+
+#square21
+{
+	position: absolute;
+	left: 50px;
+	z-index: 2000;
+	top:53px;
+	opacity:0;
+}
+#square22
+{
+	position: absolute;
+	left: 100px;
+	z-index: 2000;
+	top:53px;
+	opacity:0;
+}
+
+#square23
+{
+	position: absolute;
+	left: 150px;
+	z-index: 2000;
+	top:53px;
+	opacity:0;
+}
+
+#square24
+{
+	position: absolute;
+	left: 200px;
+	z-index: 2000;
+	top:53px;
+	opacity:0;
+}
+
+#square31
+{
+	position: absolute;
+	left: 25px;
+	z-index: 2000;
+	top:96px;
+	opacity:0;
+}
+#square32
+{
+	position: absolute;
+	left: 75px;
+	z-index: 2000;
+	top:96px;
+	opacity:0;
+}
+
+#square33
+{
+	position: absolute;
+	left: 125px;
+	z-index: 2000;
+	top:96px;
+	opacity:0;
+}
+
+#square34
+{
+	position: absolute;
+	left: 175px;
+	z-index: 2000;
+	top:96px;
+	opacity:0;
+}
+
+#square41
+{
+	position: absolute;
+	left: 0px;
+	z-index: 2000;
+	top:139px;
+	opacity:0;
+}
+#square42
+{
+	position: absolute;
+	left: 50px;
+	z-index: 2000;
+	top:139px;
+	opacity:0;
+}
+
+#square43
+{
+	position: absolute;
+	left: 100px;
+	z-index: 2000;
+	top:139px;
+	opacity:0;
+}
+
+#square44
+{
+	position: absolute;
+	left: 151px;
+	z-index: 2000;
+	top:139px;
+	opacity:0;
+}
+.coloredback
+{
+	background-image: url("../assets/blueback.png");
+	position: absolute;
+	float: left;
+	z-index: 1500;
+	width: 301px;
+	height: 174px;
+	top:10px;
+	opacity:0;
+}
+
+/*.T
+{
+	position: absolute;
+	display: inline;
+	top: 75px;
+	left: 465px;
+	opacity: 0;
+	font-size: 24px;
+	font-weight: bolder;
+	color: #2e02fd;
+	font-family: Segoe UI;
+	z-index:1200;	
+}
+*/
+#assingment
+{
+	position: absolute;
+	left: 83px;
+	top: -1px;
+	
+}
+
+#assingment2
+{
+	position: absolute;
+	left: 155px;
+	top: -1px;
+	
+}
+
+#n1
+{
+	position: absolute;
+	top: -5px;
+	left: 36px;
+}
+
+#n2
+{
+	position: absolute;
+	top: -5px;
+	left:105px;
+	color: #038f11;
+}
+#n3
+{
+	position: absolute;
+	top: -5px;
+	left:175px;
+	color: #038f11;
+}
+
+
+
+
+.fraction {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  margin-left: 2px;
+  margin-right: 2px;
+ 
+}
+
+
+.frac {
+  line-height: 100%;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+.numerator {
+  border-bottom: 1px solid;
+ padding-bottom: 2px;
+
+}

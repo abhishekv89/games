@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<application name="percentage">
+	<english>
+		<questions>
+		</questions>
+		<prompts>
+			<prompt name="text1" text="The figure is highlighted in blue." page="page1" voice="" />
+			<prompt name="text2" text="We will now join some points &lt;br&gt;to make the triangles&lt;br&gt; of the same area." page="page1" voice="" />
+			<prompt name="text3"  text="Now count the no. of triangles&lt;br&gt; having the same area as that of the triangles shaded grey." page="page1" voice="" /> 
+			<prompt name="text4" text="So, the fraction of the figure&lt;br&gt; that is coloured grey: " page="page1" voice="" />
+	
+	
+         
+		</prompts>
+		<instructions>
+		</instructions>
+		<miscellaneous>
+		</miscellaneous>
+	</english>
+	<hindi>
+		<questions>
+		</questions>
+		<prompts>
+			<prompt name="text1" text="चित्रा नीले रंग में हाइलाइट है" page="page1" voice="" />
+			<prompt name="text2" text="अब हम कुछ अंक में शामिल होने के लिए एक ही क्षेत्र के त्रिकोण बनाने" page="page1" voice="" />
+			<prompt name="text3"  text="अब एक ही क्षेत्र होने त्रिकोण की कोई गिनती रूप में traingles की है कि ग्रे छायांकित" page="page1" voice="" /> 
+			<prompt name="text4" text="तो, आंकड़े के अंश है कि रंग ग्रे है:" page="page1" voice="" />
+            
+		</prompts>
+		<instructions>
+		</instructions>
+		<miscellaneous>
+		</miscellaneous>
+	</hindi>
+	<gujarati>
+		<questions>
+		</questions>
+		<prompts>
+			<prompt name="text1" text="આ આકૃતિ બ્લુ પ્રકાશિત છે" page="page1" voice="" />
+			<prompt name="text2" text="અમે હવે કેટલાક પોઇંટ્સ જોડાઓ એ જ વિસ્તાર ઓફ ત્રિકોણો બનાવો કરશે" page="page1" voice="" />
+			<prompt name="text3"  text="હવે એજ વિસ્તાર કર્યા ત્રિકોણ ના કોઈ ગણતરી તરીકે traingles કે ભૂખરા શેડમાં" page="page1" voice="" /> 
+			<prompt name="text4" text="તેથી, આ આંકડો ની ફ્રેકશનની કે રંગીન ગ્રે છે:" page="page1" voice="" />
+		</prompts>
+		<instructions>
+		</instructions>
+		<miscellaneous>
+		</miscellaneous>
+	</gujarati>
+</application>

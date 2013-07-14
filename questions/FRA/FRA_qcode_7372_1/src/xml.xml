@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<application name="percentage">
+	<english>
+		<questions>
+		</questions>
+		<prompts>
+			 <prompt name="p_1" text="'s Pizza" page="page1" voice=""/>
+		</prompts>
+	
+		<instructions>
+		
+		</instructions>
+	
+		<miscellaneous>
+		
+		</miscellaneous>
+	</english>
+	<hindi>
+		<questions>
+		</questions>
+	<prompt name="p_1" text=" का पिज़्ज़ा" page="page1" voice=""/>
+		<instructions>
+		
+		</instructions>
+	
+		<miscellaneous>
+		
+		</miscellaneous>
+
+	</hindi>
+
+	<gujarati>
+		<questions>
+		</questions>
+		<prompts>
+			<prompt name="p_1" text=" કા પિઝા" page="page1" voice=""/>
+		
+		</prompts>
+	
+		<instructions>
+		
+		</instructions>
+	
+		<miscellaneous>
+		
+		</miscellaneous>
+	</gujarati>
+</application>

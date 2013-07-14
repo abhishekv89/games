@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />	
+	<title>WNC_qcode_5415_ans</title>	
+	<link href="../css/style.css" rel="stylesheet" type="text/css" />
+	<script src="../../../../libs/jquery-1.7.1.min.js"></script>
+	<script src="../../../../libs/common.js"></script>
+	<script src="../../../../libs/loadxmldoc.js"></script>
+	<script src="../../../../libs/parameterPassingHtml5Ques.js"></script>
+	<script src="../libs/script.js"></script>	
+
+	
+	<script>
+	var getParameters = getURLParameters();	
+	$(function(){
+		interactiveObj = new questionInteractive();
+		interactiveObj.init();  		
+	});
+	</script>	
+	
+</head> 
+ <body   id="body" onresize="containerResize();" onload="containerResize()">
+ 
+<div id="container" >
+
+<div id="canvascontainer">
+<canvas id="myCanvas" class="canvas" width="510" height="500"></canvas>
+</div>
+<div id="firsttext"></div>
+<div id=replayButton onclick="interactiveObj.animate();"><img src="../../../../assets/replay.png"/></div>
+</div>
+</body>
+</html>	

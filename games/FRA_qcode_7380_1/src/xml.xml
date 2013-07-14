@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<application name="percentage">
+	<english>
+		<questions>
+		</questions>
+		<prompts>
+		
+			<prompt name="name" text="#name# Chocolate" page="" voice="" />
+			
+		
+		</prompts>
+	
+		<instructions>
+		
+		</instructions>
+	
+		<miscellaneous>
+		
+		</miscellaneous>
+	</english>
+	<hindi>
+		<questions>
+		</questions>
+		<prompts>
+		
+			<prompt name="pname" text="#name# ?????? " page="" voice="" />
+			
+		
+		</prompts>
+	
+		<instructions>
+		
+		</instructions>
+	
+		<miscellaneous>
+		
+		</miscellaneous>
+
+	</hindi>
+
+	<gujarati>
+		<questions>
+		</questions>
+		<prompts>
+			<prompt name="pname" text="#name# ???????" page="" voice="" />
+			<prompt name="ename" text="#name# ?????? ?????? ???  " page="" voice="" />
+		
+		</prompts>
+	
+		<instructions>
+		
+		</instructions>
+	
+		<miscellaneous>
+		
+		</miscellaneous>
+	</gujarati>
+</application>
+ument>

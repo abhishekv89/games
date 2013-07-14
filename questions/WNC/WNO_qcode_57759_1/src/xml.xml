@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<application name="percentage">
+    <english>
+        <questions>
+        </questions>
+        <prompts>
+         
+	   <prompt name="57900" text="Notice we always START from the LEFT side while solving such expressions!" page="page1" voice="" />
+	   <prompt name="57933" text="Notice we always START from the LEFT side while solving such expressions!" page="page1" voice="" />
+     <prompt name="57939" text="Notice that we solve all multiplications and divisions before additions and subtractions." page="page1" voice="" />
+	   <prompt name="57782" text="We write brackets to indicate that certain parts of an expression need to be solved before anything else." page="page1" voice="" />
+	   <prompt name="57947" text="Notice that we solve brackets before anything else." page="page1" voice="" />
+        </prompts>
+        <instructions>
+        </instructions>
+        <miscellaneous>
+        </miscellaneous>
+    </english>
+    <hindi>
+        <questions>
+        </questions>
+        <prompts>
+         <prompt name="57900" text="Notice we always START from the LEFT side while solving such expressions!" page="page1" voice="" />
+       <prompt name="57933" text="Notice that we always show all multiplications and divisions before additions and subtractions." page="page1" voice="" />
+       <prompt name="57939" text="Notice that we always show all multiplications and divisions before additions and subtractions." page="page1" voice="" />
+       <prompt name="57782" text="We write brackets to indicate that certain parts of an expression need to be solved before anything else." page="page1" voice="" />
+       <prompt name="57947" text="Notice that we solve brackets before anything else." page="page1" voice="" />
+        </prompts>
+        <instructions>
+        </instructions>
+        <miscellaneous>
+        </miscellaneous>
+    </hindi>
+    <gujarati>
+        <questions>
+        </questions>
+        <prompts>
+         <prompt name="57900" text="Notice we always START from the LEFT side while solving such expressions!" page="page1" voice="" />
+       <prompt name="57933" text="Notice that we always show all multiplications and divisions before additions and subtractions." page="page1" voice="" />
+       <prompt name="57939" text="Notice that we always show all multiplications and divisions before additions and subtractions." page="page1" voice="" />
+       <prompt name="57782" text="We write brackets to indicate that certain parts of an expression need to be solved before anything else." page="page1" voice="" />
+       <prompt name="57947" text="Notice that we solve brackets before anything else." page="page1" voice="" />
+            
+        </prompts>
+        <instructions>
+        </instructions>
+        <miscellaneous>
+        </miscellaneous>
+    </gujarati>
+</application>

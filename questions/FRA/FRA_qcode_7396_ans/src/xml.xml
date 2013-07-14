@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<application name="percentage">
+	<english>
+		<questions>
+		</questions>
+		<prompts>
+		
+			<prompt name="text1" text="Part eaten by Peter" page="" voice="" />
+			<prompt name="text2" text="is same as" page="" voice="" />
+			
+		
+			
+		
+		</prompts>
+	
+		<instructions>
+		
+		</instructions>
+	
+		<miscellaneous>
+		
+		</miscellaneous>
+	</english>
+	<hindi>
+		<questions>
+		</questions>
+		<prompts>
+		
+			<prompt name="text1" text="पीटर द्वारा खाया पार्ट्स" page="" voice="" />
+			<prompt name="text2" text="के रूप में एक ही है" page="" voice="" />
+		
+		</prompts>
+	
+		<instructions>
+		
+		</instructions>
+	
+		<miscellaneous>
+		
+		</miscellaneous>
+
+	</hindi>
+
+	<gujarati>
+		<questions>
+		</questions>
+		<prompts>
+			<prompt name="text1" text="Parts Eaten By Peter" page="" voice="" />
+			<prompt name="text2" text="is same as" page="" voice="" />
+		
+		</prompts>
+	
+		<instructions>
+		
+		</instructions>
+	
+		<miscellaneous>
+		
+		</miscellaneous>
+	</gujarati>
+</application>

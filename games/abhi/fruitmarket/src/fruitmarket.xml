@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?> 
+<application name="percentage">
+	<english>
+		<questions>
+		</questions>
+		<prompts>
+			<prompt name="title" text="Fruit Market" page="1" voice="" />
+			<prompt name="title_1" text="Riya wants to buy some fruits but she does not knows how much money to spend. Please help her to calculate the total money spent" page="1" voice="" />
+			
+			<prompt name="1" text="apples" page="1" voice="" />
+			<prompt name="2" text="bananas" page="1" voice="" />
+			<prompt name="3" text="guavas" page="1" voice="" />
+			<prompt name="4" text="mangoes" page="1" voice="" />
+			<prompt name="5" text="melons" page="1" voice="" />
+			<prompt name="6" text="oranges" page="1" voice="" />
+			
+			
+			<prompt name="each" text="each" page="1" voice="" />
+			<prompt name="score1" text="Score:  " page="1" voice="" />
+			<prompt name="OK" text="OK" page="1" voice="" />
+				
+			<prompt name="Total" text="Total" page="1" voice="" />
+			
+			<prompt name="Level1" text="Level: 1" page="1" voice="" />
+			<prompt name="Level2" text="Level: 2" page="1" voice="" />
+			<prompt name="Level3" text="Level: 3" page="1" voice="" />
+			
+			<prompt name="Stage1" text="Level 1" page="1" voice="" />
+			<prompt name="Stage2" text="Level 2" page="1" voice="" />
+			<prompt name="Stage3" text="Level 3" page="1" voice="" />
+			
+			<prompt name="Incorrect" text="Incorrect ! &lt;br&gt;" page="1" voice="" />
+			<prompt name="Pay" text="&lt;br&gt; So you have to pay Rs." page="1" voice="" />
+			<prompt name="AlertMessage" text="Total price of " page="1" voice="" />
+			<prompt name="and" text="and" page="1" voice="" />
+			<prompt name="Price" text="Price of " page="1" voice="" />
+			<prompt name="GoodMessage" text="Well done !  &lt;br&gt; You have paid the correct amount." page="1" voice="" />
+			<prompt name="End" text="Well done ! &lt;br&gt; You have cleared all the levels!" page="1" voice="" />
+			<prompt name="Click" text="Click to continue" page="1" voice="" />
+			<prompt name="Message1" text="Well done ! &lt;br&gt; You have cleared Level 1" page="1" voice="" />
+			<prompt name="Message2" text="Well done ! &lt;br&gt; You have cleared Level 2" page="1" voice="" />
+			<prompt name="Message3" text="Well done ! &lt;br&gt; You have cleared Level 3" page="1" voice="" />
+			<prompt name="endPage" text="THE END!" page="1" voice="" />
+			
+
+		</prompts>
+		<instructions>
+		</instructions>
+		<miscellaneous>
+		</miscellaneous>
+	</english>
+	<hindi>
+		<questions>
+		</questions>
+		<prompts>
+			<prompt name="title" text="फलों का बाजार" page="" voice="" />
+			<prompt name="title_1" text="रिया कुछ फल खरीदने के लिए करना चाहता है, लेकिन वह नहीं जानता है कितना पैसा खर्च करने के लिए. उसका कुल खर्च पैसे की गणना करने के लिए मदद" page="" voice="" />
+			
+			<prompt name="1" text="सेब" page="1" voice="" />
+			<prompt name="2" text="केले" page="1" voice="" />
+			<prompt name="3" text="अमरूद" page="1" voice="" />
+			<prompt name="4" text="आम" page="1" voice="" />
+			<prompt name="5" text="तरबूज" page="1" voice="" />
+			<prompt name="6" text="नारंगी" page="1" voice="" />
+			<prompt name="each" text="प्रत्येक" page="1" voice="" />
+			
+			<prompt name="score1" text="स्कोर" page="1" voice="" />
+			<prompt name="OK" text="अच्छा" page="1" voice="" />
+				
+			<prompt name="Total" text="संपूर्ण" page="1" voice="" />
+			
+			<prompt name="Level1" text="स्तर 1" page="1" voice="" />
+			<prompt name="Level2" text="स्तर 2" page="1" voice="" />
+			<prompt name="Level3" text="स्तर 3" page="1" voice="" />
+			
+			<prompt name="Stage1" text="मंच 1" page="1" voice="" />
+			<prompt name="Stage2" text="मंच 2" page="1" voice="" />
+			<prompt name="Stage3" text="मंच 3" page="1" voice="" />
+			
+			<prompt name="Incorrect" text="गलत &lt;br&gt;" page="1" voice="" />
+			<prompt name="Pay" text="&lt;br&gt; तो आप रुपये का भुगतान किया है." page="1" voice="" />
+			<prompt name="AlertMessage" text="की कुल कीमत " page="1" voice="" />
+			<prompt name="and" text="और" page="1" voice="" />
+			<prompt name="Price" text="की कीमत" page="1" voice="" />
+			<prompt name="GoodMessage" text="शाबाश!  &lt;br&gt; आप सही राशि का भुगतान किया है" page="1" voice="" />
+			<prompt name="End" text="वैसे आप सभी स्तरों को मंजूरी दे दी है किया..!!!" page="1" voice="" />
+		</prompts>
+		<instructions>
+		</instructions>
+		<miscellaneous>
+		</miscellaneous>
+	</hindi>
+	<gujarati>
+		<questions>
+		</questions>
+		<prompts>
+			<prompt name="1" text="apple" page="1" voice="" />
+			<prompt name="2" text="banana" page="1" voice="" />
+			<prompt name="3" text="guava" page="1" voice="" />
+			<prompt name="4" text="mango" page="1" voice="" />
+			<prompt name="5" text="melon" page="1" voice="" />
+			<prompt name="6" text="orange" page="1" voice="" />
+			<prompt name="each" text="each" page="1" voice="" />
+		</prompts>
+		<instructions>
+		</instructions>
+		<miscellaneous>
+		</miscellaneous>
+	</gujarati>
+</application>

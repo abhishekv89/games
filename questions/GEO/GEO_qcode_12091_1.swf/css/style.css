@@ -1,0 +1,190 @@
+html,body,div,p,span,canvas{
+	margin:0;
+	padding:0;
+}
+
+body
+{	
+	background-repeat:no-repeat;
+	font-family:"Comic Sans MS";
+	font-size:15px;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none; 
+	overflow:hidden;
+}
+#replayButton
+{
+
+	background: url('../../../../assets/replay.png');
+	width: 17px;
+	height: 16px;
+	cursor: pointer;
+	clear: both;
+    position: absolute;
+    z-index: 2000;
+    top: 386px;
+	left: 465px;
+	visibility: hidden;
+}
+
+#container
+{
+
+	position: absolute;
+	width: 500px;
+	height: 430px;
+	border: 2px solid black;
+	border-radius: 10px;
+	-webkit-transform-origin : left top;
+	-moz-transform :scale(1);
+	-moz-transform-origin : left top;
+	-ms-transform :scale(1);
+	-ms-transform-origin : left top;
+	-o-transform :scale(1);
+	-o-transform-origin : left top;
+	transform :scale(1);
+	transform-origin : left top;
+}
+#baseHolder
+{
+	position: absolute;
+	top: 13px;
+}
+.divBlock
+{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 19px;
+	height: 19px;
+	border:1px solid black;
+	display: inline-block;
+
+}
+.divBlock2
+{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 19px;
+	height: 19px;
+	border:1px solid black;
+	display: inline-block;
+
+}
+#gridHolder1
+{
+	position: absolute;
+	top: -7px;
+	left: 286px;
+
+
+}
+#gridHolder2
+{
+	position: absolute;
+	top: 266px;
+	left: 170px;
+
+}
+#gridHolder3
+{
+	position: absolute;
+	top: 149px;
+	left: 50px;
+
+}
+.base
+{
+	position:absolute;
+	width: 100px;
+	height: 1px;
+	background-color: black;
+	top: 266px;
+	left: 171px;
+}
+.hypotnuse
+{
+	position:absolute;
+	width: 100px;
+	height: 1px;
+	background-color: black;
+	top: 205px;
+	left: 151px;
+}
+.ppd
+{
+	position: absolute;
+	width: 100px;
+	height: 1px;
+	background-color: black;
+	top: 206px;
+	left: 110px;
+}
+
+#gridMove1
+{
+	position: absolute;
+	top: 266px;
+	left: 170px;
+}
+#gridMove2
+{
+	position: absolute;
+	top: 148px;
+	left: 50px;
+}
+#gridMove3
+{
+	position: absolute;
+	top: 187px;
+	left: 50px;
+}
+#gridMove4
+{
+	position: absolute;
+	top: 187px;
+	left: 130px;
+}
+#gridMove5
+{
+	position: absolute;
+	top: 225px;
+	left: 50px;
+}
+#gridMove6
+{
+	position: absolute;
+	top: 225px;
+	left: 50px;
+}
+#gridMove7
+{
+	position: absolute;
+	top: 225px;
+	left: 50px;
+}
+
+.labelBase
+{
+	position: absolute;
+	top: 244px;
+	left: 224px;
+	font-size: 14px;
+}
+.labelHypo
+{
+	position: absolute;
+	top: 200px;
+	left: 225px;
+}
+.labelppd
+{
+	position: absolute;
+	top: 200px;
+	left: 174px;
+}
+

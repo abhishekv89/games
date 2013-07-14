@@ -1,0 +1,294 @@
+html,body,div,p,span,canvas{
+	margin:0;
+	padding:0;
+}
+
+body {	
+	background-repeat:no-repeat;
+	font-family:"Comic Sans MS";
+	font-size:15px;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none; 
+	overflow:hidden;
+}
+
+#container
+{
+
+	position: absolute;
+	width: 642px;
+	height: 480px;
+	border: 2px solid black;
+	border-radius: 10px;
+
+	-webkit-transform-origin : left top;
+	-moz-transform :scale(1);
+	-moz-transform-origin : left top;
+	-ms-transform :scale(1);
+	-ms-transform-origin : left top;
+	-o-transform :scale(1);
+	-o-transform-origin : left top;
+	transform :scale(1);
+	transform-origin : left top;
+
+	    -webkit-box-shadow:0 0 20px blue; 
+    -moz-box-shadow: 0 0 20px blue; 
+    box-shadow:0 0 20px blue;
+
+}
+#buttons
+{
+	position: absolute;
+	width: 60px;
+	height: 213px;
+	left: 480px;
+	top: 199px;
+
+}
+.button1
+{
+	display: inline-block;
+	cursor:pointer;
+	background-color:#CD0000;
+	width:50px;		
+	height:50px;
+	
+	border-radius:25px;
+	box-shadow:0px 8px 0px 0px #CD2626;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.button1:active
+{
+	position:relative;
+	top:6px;
+	background:#CC3232;
+	width:50px;	
+	height:50px;
+	border-radius:25px;
+	box-shadow:0px 2px 1px 2px #CD2626;
+	transition:all 0.10s ease;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.button2
+{
+	display: inline-block;
+	cursor:pointer;
+	background-color:#FBDB0C;
+	width:50px;		
+	height:50px;
+	margin-top: 15px;
+	border-radius:25px;
+	box-shadow:0px 8px 0px 0px #FCB514;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.button2:active
+{
+	position:relative;
+	top:6px;
+	background:#FBDB0C;
+	width:50px;	
+	height:50px;
+	border-radius:25px;
+	box-shadow:0px 2px 1px 2px #FCB514;
+	transition:all 0.10s ease;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.button3
+{
+	display: inline-block;
+	cursor:pointer;
+	background-color:#33A1DE;
+	width:50px;		
+	height:50px;
+	margin-top: 15px;
+	border-radius:25px;
+	box-shadow:0px 8px 0px 0px #3333FF;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.button3:active
+{
+	position:relative;
+	top:6px;
+	background:#33A1DE;
+	width:50px;	
+	height:50px;
+	border-radius:25px;
+	box-shadow:0px 2px 1px 2px #3333FF;
+	transition:all 0.10s ease;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.circle
+{
+	width: 10px;
+	height: 10px;
+	border: 2px solid red;
+	border-radius: 50px;
+	background-color: black;
+}
+#scaleHolder
+{
+	position: relative;
+	width: 368px;
+	top: 426px;
+	left: 36px;
+	cursor: move;
+	z-index: 2000;
+	-webkit-transform-origin : 50% 50%;
+	-moz-transform-orignin:50% 50%;
+}
+#scale
+{
+	width: 368px;
+	height: 4px;
+	border: 2px solid red;
+	background-color: black;
+	/*position: absolute;
+	left: 36px;*/
+}
+
+.points
+{
+	position: absolute;
+	top: 10px;
+	left: 20px;
+}
+
+#pointQ
+{
+	position: absolute;
+top: 165px;
+left: 99px;
+
+}
+#pointR
+{
+	position: absolute;
+top: 165px;
+left: 148px;
+}
+#pointS
+{
+	position: absolute;
+top: 339px;
+left: 99px;
+}
+#pointT
+{
+	position: absolute;
+	top: 289px;
+	left: 224px;
+}
+#pointU
+{
+	position: absolute;
+	top: 339px;
+	left: 273px;
+}
+#pointP
+{
+	position: absolute;
+	top: 114px;
+	left: 73px;
+
+}
+#pointV
+{
+	position: absolute;
+	top: 214px;
+	left: 274px;
+}
+#pointW
+{
+	position: absolute;
+top: 164px;
+left: 299px;
+}
+#pointX
+{
+	position: absolute;
+top: 113px;
+left: 274px;
+
+}
+#pointY
+{
+	position: absolute;
+	top: 64px;
+	left: 299px;
+
+}
+.text
+{
+	position: absolute;
+	left: -18px;
+	top: -23px;
+	opacity: 1;
+	font-size: 16px;
+}
+#text1
+{
+	position: absolute;
+	font-size: 12px;
+	opacity: 0;
+	top: 205px;
+	left: 542px;
+	width: 85px;
+	border: 1px solid red;
+	border-radius: 7px;
+	text-align: center;
+	    -webkit-box-shadow:0 0 20px red; 
+    -moz-box-shadow: 0 0 20px red; 
+    box-shadow:0 0 20px red;
+}
+#text2
+{
+	position: absolute;
+	font-size: 12px;
+	opacity: 0;
+	top: 278px;
+	left: 542px;
+	width: 85px;
+	border: 1px solid yellow;
+	border-radius: 7px;
+	text-align: center;
+	    -webkit-box-shadow:0 0 20px yellow; 
+    -moz-box-shadow: 0 0 20px yellow; 
+    box-shadow:0 0 20px yellow;
+}
+#text3
+{
+	position: absolute;
+	font-size: 12px;
+	opacity: 0;
+	top: 346px;
+	left: 542px;
+	width: 85px;
+	border: 1px solid blue;
+	border-radius: 7px;
+	text-align: center;
+	    -webkit-box-shadow:0 0 20px blue; 
+    -moz-box-shadow: 0 0 20px blue; 
+    box-shadow:0 0 20px blue;
+}
+.divBlock
+{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 25px;
+	height: 25px;
+	border:1px solid black;
+	opacity: 0.2;
+	display: inline-block;
+
+}
+
+.rightAnswer
+{
+	outline:none;
+    border-color:#008000;
+    box-shadow:1px 2px 2px #008000;
+}

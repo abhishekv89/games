@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="cache-control" charset="utf-8">
+<title>Speech Bubble</title>
+
+	<script src="../libs/script.js"></script>
+		<link rel="stylesheet" href="../css/style.css" />
+		<script src="../../../libs/jquery.js"></script>		
+		<script src="../../../libs/jquery-1.7.1.min.js"></script>
+		<script src="../../../libs/common.js"></script>
+	  	<script src="../../../libs/loadxmldoc.js" type="text/javascript"></script>
+		<script src="../../../libs/parameterPassingHtml5Ques.js" type="text/javascript"></script>
+		<script src="../../../libs/PxLoader.js"></script>
+		<script  src="../../../libs/PxLoaderImage.js"></script>
+	
+    <script>
+
+	var getParameters = getURLParameters();	
+			var languageStr ='xml.xml';
+    	$(function(){
+			var imageArray = new Array('');
+
+			var loader = new PxLoader(); 
+			
+			$.each(imageArray,function(key,value){
+				var pxImage = new PxLoaderImage('../assets/'+value); 
+				loader.add(pxImage); 
+			}); 
+			loader.start();
+			
+			
+			
+			$(function(){
+			interactiveObj = new questionInteractive();
+			loadXML(languageStr,function(){interactiveObj.init()});  		
+		});
+	});
+    </script>
+  	<script>
+		
+	</script>	
+</head>
+
+<body onresize="resize();" onload="resize()">
+    <div id="container">
+    	 <div id="sparkie"></div>
+	<div id="coin"></div>
+    	 <div id="callOut" class="callout callout border-callout">
+        	<span id="text1"></span>
+		<span id="text2"></span>
+		<span id="text3"></span>
+		<span id="text4"></span>
+		<span id="text5"></span>
+		<span id="text6"></span>
+		<span id="text7"></span>
+		<span id="text8"></span>
+		<span id="text9"></span>
+		<span id="text10"></span>
+		
+            <b class="border-notch notch dispNone"></b>
+            <b class="notch dispNone"></b>
+        </div>
+	 <div id="replayButton" class="replay" onclick="interactiveObj.replay()"></div> 
+    </div>
+</body>	
+</html>

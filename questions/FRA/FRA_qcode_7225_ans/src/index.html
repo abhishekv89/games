@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />	
+	<title>FRA_qcode_7225_ans</title>	
+	<link href="../css/style.css" rel="stylesheet" type="text/css" />
+	<script src="../../../../libs/jquery-1.7.1.min.js"></script>
+	<script src="../../../../libs/common.js"></script>
+	<script src="../../../../libs/loadxmldoc.js"></script>
+	<script src="../../../../libs/parameterPassingHtml5Ques.js"></script>
+	<script src="../libs/script.js"></script>	
+	<script>
+	var getParameters = getURLParameters();	
+	$(function(){
+		interactiveObj = new questionInteractive();
+		interactiveObj.init();  		
+	});
+	</script>	
+	
+</head> 
+ <body onresize="resize();" onload="resize()">
+
+ 
+<div id="container" >
+
+<canvas id="myCanvas" class="canvas" height="280" style="position: absolute;top:-69px;"></canvas>
+
+<div id="replayButton" class="replay" onclick="interactiveObj.animate()"></div>
+
+</div>
+
+</body>
+</html>	

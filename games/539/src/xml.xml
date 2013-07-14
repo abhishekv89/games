@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<application name="percentage">
+    <english>
+        <questions>
+        </questions>
+        <prompts>
+
+	  	 <prompt name="text" text="Do you know that people in India used the coin shown below 40 years back?" page="page1" voice="" />
+	 	 <prompt name="text2" text="How many rupees is the coin worth, Re 1 or Rs 2." page="page1" voice="" />
+		 <prompt name="text3" text="&lt;span style='color:#FF0000' &gt; HINT: &lt;/span&gt;It is not a 1 rupee coin nor a 2 rupee coin!" page="page1" voice="" />
+		 <prompt name="text4" text="It is a half rupee coin!" page="page1" voice="" />
+		 <prompt name="text5" text="Check how half is written as a number in the coin." page="page1" voice="" />
+		 <prompt name="text6" text="Any idea why is it written like that?" page="page1" voice="" />
+		 <prompt name="text7" text="Can you suggest how would you write half as a number?" page="page1" voice="" />
+		 <prompt name="text8" text="Try answering some questions. You will find the answer to the question later." page="page1" voice="" />
+		 <prompt name="text9" text="Hit QUIT button below." page="page1" voice="" />
+		
+        </prompts>
+        <instructions>
+        </instructions>
+        <miscellaneous>
+        </miscellaneous>
+    </english>
+    <hindi>
+        <questions>
+        </questions>
+        <prompts>
+            <prompt name="text" text="क्या आप जानते हैं कि भारत में लोग यह सिक्का 40 साल पहले किया करते थे" page="page1" voice="" />
+	    <prompt name="text2" text="कितने रुपए मूल्य रुपये 1 या 2 रुपये का सिक्का है." page="page1" voice="" />
+	    <prompt name="text3" text="सुझाव: यह एक 1 पुन सिक्का 2 रुपया नहीं एक सिक्का नहीं है." page="page1" voice="" />
+	    <prompt name="text4" text="यह एक आधा रुपया का सिक्का है." page="page1" voice="" />
+	    <prompt name="text5" text="जांच कैसे आधा सिक्के में एक संख्या के रूप में लिखा है" page="page1" voice="" />
+	    <prompt name="text6" text="किसी भी विचार क्यों यह उस तरह लिखा है" page="page1" voice="" />
+	    <prompt name="text7" text="सुझाव है कि आप कैसे आप एक संख्या के रूप में आधा लिखना होगा" page="page1" voice="" />
+	    <prompt name="text8" text="जांच कैसे आधा सिक्के में एक संख्या के रूप में लिखा है" page="page1" voice="" />
+	    	  <prompt name="text9" text="कुछ सवालों के जवाब देने की कोशिश करें.आप बाद में सवालों के जवाब मिल जाएगा" page="page1" voice="" />
+           <prompt name="text10" text="Hit Quit button below" page="page1" voice="" />
+        </prompts>
+        <instructions>
+        </instructions>
+        <miscellaneous>
+        </miscellaneous>
+    </hindi>
+    <gujarati>
+        <questions>
+        </questions>
+        <prompts>
+           <prompt name="text" text="Do You Know That People In India Used This Coin 40 years back" page="page1" voice="" />
+           <prompt name="text2" text="How many rupees is the coin worth    Rs 1 or  Rs 2." page="page1" voice="" />
+	 
+	    <prompt name="text3" text="HINT:-It is not a 1 Re rupee coin nor a 2 Rupee coin ." page="page1" voice="" />
+	    <prompt name="text4" text="It is a half rupee coin." page="page1" voice="" />
+	    <prompt name="text5" text="Check How Half is Written as a number in the coin" page="page1" voice="" />
+	    <prompt name="text6" text="Any idea why is it written like that" page="page1" voice="" />
+	    <prompt name="text7" text="Can you suggest how would you write half as a number" page="page1" voice="" />
+	    <prompt name="text8" text="Check How Half is Written as a number in the coin" page="page1" voice="" />
+	    <prompt name="text9" text="Try answering some questions. You will find the answer to the questions later" page="page1" voice="" />
+<prompt name="text10" text="Hit Quit button below" page="page1" voice="" />
+        </prompts>
+        <instructions>
+        </instructions>
+        <miscellaneous>
+        </miscellaneous>
+    </gujarati>
+</application>

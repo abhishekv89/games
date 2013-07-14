@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Percentage in HTML5</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<script src="../../../libs/jquery.js"></script>
+	<script src="../../../libs/common.js"></script>
+	<script src="../../../libs/loadxmldoc.js"></script>
+	<script src="../../../libs/parameterPassing.js"></script>
+	<script src="main.js"></script>
+	<script>
+		loadXML("percentageXML.xml", function() {loadXmlCompleted();});
+	</script>
+</head>
+
+<body>
+	<div id="game_container">
+		<div>			
+			<canvas id="game_canvas" width="800" height="600">
+				Sorry kiddo, your browser doesn't support canvas.
+			</canvas>
+		</div>	
+		<div id="gameStartScreen">
+			<div id='gameHeading'></div>
+			<div id='instHeading'></div>
+			<div id='instDesc'></div>			
+		</div>	
+		
+		<div id="choosePercentage">
+			<div id='level1txt'></div>
+			<div id='gamePointRelatedInfo'>
+				<table cellspacing="10px;">
+					<tr>
+						<td><img src="../assets/right.png"></td>
+						<td class="pointTxt">-- 10 points</td>
+					</tr>
+					<tr>
+						<td><img src="../assets/wrong.png"></td>
+						<td class="pointTxt">-- 0 points</td>
+					</tr>
+				</table>
+			</div>				
+			<div id='percentageOpt'>
+				<div >10%</div>		
+				<div >20%</div>		
+				<div >30%</div>		
+				<div >25%</div>		
+				<div >50%</div>		
+				<div >75%</div>								
+			</div>
+								
+		</div>	
+		
+		<div id="level2Screen">
+			<div id='inst'></div>				
+		</div>	
+		<div id='playBtn'>	
+			 <button type="submit" class="norm_button">
+		           <span>Play</span>
+		     </button>
+   		</div>	
+		<div id='gameOver'>
+			<div id='scoreTxt'></div>
+			<div id='improveSkillMsg'></div>
+		</div>
+		
+		<div id='continueBtn'>	
+			 <button type="submit" class="norm_button">
+		           <span>Continue</span>
+		     </button>
+   		</div>	
+		<div id="userQuesResponse"></div>
+		<div id="tableRelatedTxt"></div>
+		<div id="secondAttemtedTxt"></div>
+		<div id="congratsImg"><img src="../assets/congrats.png"></div>
+	</div>
+</body>
+</html>

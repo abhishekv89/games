@@ -1,0 +1,262 @@
+#container { 
+	width:1065px;
+	overflow:hidden;
+	-webkit-transform:scale(1);
+	-webkit-transform-origin : left top;
+	-moz-transform :scale(1);
+	-moz-transform-origin : left top;
+	-ms-transform :scale(1);
+	-ms-transform-origin : left top;
+	-o-transform :scale(1);
+	-o-transform-origin : left top;
+	transform :scale(1);
+	transform-origin : left top;
+}
+
+#replayButton{
+display: inline;
+float: right;
+width: 17px;
+height: 16px;
+cursor: pointer;
+visibility: hidden;
+opacity: 0;
+clear: both;
+position: absolute;
+top: 254px;
+left: 1037px;
+}
+
+body{
+
+ background-repeat:no-repeat;
+  font-family:"Comic Sans MS";
+  font-size:14px;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none; 
+  overflow:hidden;
+    
+}
+html,body,div,p,span,canvas{
+  margin:0;
+  padding:0;
+}
+
+
+#girl1
+{
+    background-image: url("../assets/girl1.png");
+    display: inline;
+    float: left;
+    width: 50px;
+    height: 86px;
+    position: absolute;
+top: 158px;
+left: 20px;
+ 
+}
+
+#girl2
+{
+    background-image: url("../assets/girl2.png");
+    display: inline;
+    float: left;
+    width: 50px;
+    height: 86px;
+    position: absolute;
+top: 158px;
+left: 20px;
+ 
+    
+}
+
+#girl3
+{
+    background-image: url("../assets/girl3.png");
+    display: inline;
+    float: left;
+    width: 50px;
+    height: 86px;
+    position: absolute;
+top: 158px;
+left: 20px;
+ 
+}
+#popout1
+{
+ display: inline-block;
+float: left;
+width: 327px;
+height: 253px;
+position: absolute;
+top:10px;
+left: 20px;
+}
+.txt1
+{
+position: absolute;
+top: 11px;
+left: 26px;
+width: 219px;
+height: 91px;
+text-align: center;
+font-size: 20px;
+}
+.name1
+{
+position: absolute;
+top: 257px;
+left: 22px;
+font-size: 22px;
+font-weight: bold;
+}
+.one
+{
+position: relative;
+display: inline-block;
+width: 354px;
+height: 299px;
+
+}
+
+.oval-thought
+ {
+position: relative;
+width: 200px;
+height: 7px;
+padding: 50px 40px;
+
+color: #fff;
+background: #075698;
+background: -webkit-gradient(linear, 0 0, 0 100%, from(#2e88c4), to(#075698));
+background: -moz-linear-gradient(#2e88c4, #075698);
+background: -o-linear-gradient(#2e88c4, #075698);
+background: linear-gradient(#2e88c4, #075698);
+-webkit-border-top-left-radius: 220px 120px;
+-webkit-border-top-right-radius: 220px 120px;
+-webkit-border-bottom-right-radius: 220px 120px;
+-webkit-border-bottom-left-radius: 220px 120px;
+-moz-border-radius: 220px / 120px;
+border-radius: 220px / 120px;
+}
+.oval-thought:before
+ {
+content: "";
+position: absolute;
+bottom: -31px;
+left: 50px;
+width: 30px;
+height: 30px;
+background: #075698;
+-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+border-radius: 30px;
+}
+
+.oval-thought:after
+ {
+content: "";
+position: absolute;
+bottom: -47px;
+left: 30px;
+width: 15px;
+height: 15px;
+background: #075698;
+-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+}
+#firstBlock
+{
+	opacity:0;	
+}
+#secondBlock
+{
+	opacity:0;
+}
+#thirdBlock
+{
+	opacity:0;
+}
+
+
+.loader {	
+	color:#2187e7;
+	width:800px;
+	height:600px;
+	background:#00000F;
+	font-weight:bold;
+	font-size:18px;
+	font-family:Comic Sans MS;
+	
+}
+.loading-text
+{
+	display:inline-block;
+	position:absoulte;
+	margin-top:250px;
+	background:transparent;
+	text-shadow:0px 0px 2px  #FFFFFF;
+	transition: 0.2s tex-shadow;
+}
+
+.preloader {
+	background-color: rgba(0,0,0,0);
+	border:5px solid rgba(0,183,229,0.9);
+	opacity:.9;
+	border-right:5px solid rgba(0,0,0,0);
+	border-left:5px solid rgba(0,0,0,0);
+	border-radius:50px;
+	width:50px;
+	height:50px;
+	-moz-animation:spinPulse 1s infinite ease-in-out;
+	-webkit-animation:spinPulse 1s infinite linear;
+	-ms-animation:spinPulse 1s infinite linear;
+	
+}
+.preloader1 {
+	background-color: rgba(0,0,0,0);
+	border:5px solid rgba(0,183,229,0.9);
+	opacity:.9;
+	border-left:5px solid rgba(0,0,0,0);
+	border-right:5px solid rgba(0,0,0,0);
+	border-radius:50px;
+	box-shadow: 0 0 15px #2187e7; 
+	width:30px;
+	height:30px;
+	position:relative;
+	top:-50px;
+	-moz-animation:spinoffPulse 1s infinite linear;
+	-webkit-animation:spinoffPulse 1s infinite linear;
+	-ms-animation:spinoffPulse 1s infinite linear;
+}
+@-moz-keyframes spinPulse {
+	0% { -moz-transform:rotate(160deg); opacity:0; box-shadow:0 0 1px #2187e7;}
+	50% { -moz-transform:rotate(145deg); opacity:1; }
+	100% { -moz-transform:rotate(-320deg); opacity:0; }
+}
+@-moz-keyframes spinoffPulse {
+	0% { -moz-transform:rotate(0deg); }
+	100% { -moz-transform:rotate(360deg);  }
+}
+@-webkit-keyframes spinPulse {
+	0% { -webkit-transform:rotate(160deg); opacity:0; box-shadow:0 0 1px #2187e7; }
+	50% { -webkit-transform:rotate(145deg); opacity:1;}
+	100% { -webkit-transform:rotate(-320deg); opacity:0; }
+}
+@-webkit-keyframes spinoffPulse {
+	0% { -webkit-transform:rotate(0deg); }
+	100% { -webkit-transform:rotate(360deg); }
+}
+@-ms-keyframes spinPulse {
+	0% { -ms-transform:rotate(160deg); opacity:0; box-shadow:0 0 1px #2187e7;}
+	50% { -ms-transform:rotate(145deg); opacity:1; }
+	100% { -ms-transform:rotate(-320deg); opacity:0; }
+}
+@-ms-keyframes spinoffPulse {
+	0% { -ms-transform:rotate(0deg); }
+	100% { -ms-transform:rotate(360deg);  }
+}

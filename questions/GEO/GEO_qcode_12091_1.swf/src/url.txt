@@ -1,0 +1,8 @@
+case 1
+?sides=6|8|10&orientation=right&label=L|M|N&animType=1
+
+case 2
+?sides=4|3|5&orientation=right&label=L|M|N&animType=2
+
+case 3:-
+?sides=5|12|13&orientation=right&label=L|M|N&animType=3

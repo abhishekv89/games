@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<application name="percentage">
+    <english>
+        <questions>
+        </questions>
+        <prompts>
+         
+	   <prompt name="p1" text="How many blue shapes can be filled in the white shape ?" page="page1" voice="" />
+	   <prompt name="p2" text="Possible blue shapes in white shape: 16" page="page1" voice="" />
+	   <prompt name="p3" text="No of blue shape in white shape: 11" page="page1" voice="" />
+	   <prompt name="p4" text="Therefore, the fraction of the white shape that is filled with the green shape is:" page="page1" voice="" />
+	   <prompt name="p5" text="The fraction of the white shape that is filled with the green shape is:" page="page1" voice="" />
+
+        </prompts>
+        <instructions>
+        </instructions>
+        <miscellaneous>
+        </miscellaneous>
+    </english>
+    <hindi>
+        <questions>
+        </questions>
+        <prompts>
+           <prompt name="p1" text="कैसे कई ब्लू आकार व्हाइट आकार में भरा जा सकता है?" page="page1" voice="" />
+	   <prompt name="p2" text="व्हाइट आकार में संभावित ब्लू आकार: 16" page="page1" voice="" />
+	   <prompt name="p3" text=" ब्लू सफेद आकार में आकार का कोई:11" page="page1" voice="" />
+	   <prompt name="p4" text="इसलिए, सफेद आकार के अंश है कि हरी आकार के साथ भरा है:" page="page1" voice="" />
+           
+        </prompts>
+        <instructions>
+        </instructions>
+        <miscellaneous>
+        </miscellaneous>
+    </hindi>
+    <gujarati>
+        <questions>
+        </questions>
+        <prompts>
+            <prompt name="p1" text="कैसे कई ब्लू आकार व्हाइट आकार में भरा जा सकता है?" page="page1" voice="" />
+	 <prompt name="p2" text="व्हाइट आकार में संभावित ब्लू आकार: 16" page="page1" voice="" />
+	<prompt name="p3" text=" ब्लू सफेद आकार में आकार का कोई:11" page="page1" voice="" />
+	<prompt name="p4" text="इसलिए, सफेद आकार के अंश है कि हरी आकार के साथ भरा है:" page="page1" voice="" />
+           
+           
+            
+        </prompts>
+        <instructions>
+        </instructions>
+        <miscellaneous>
+        </miscellaneous>
+    </gujarati>
+</application>

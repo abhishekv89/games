@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<application name="percentage">
+<english>
+	<questions>
+	</questions>
+	<prompts>
+		<prompt name="p101" text="The game is over!&lt;br&gt;&lt;br&gt;Your score is" page="page1" voice="" />
+		<prompt name="p102" text="Try and solve more questions on percentage to improve your score!" page="page1" voice="" />
+		<prompt name="p103" text="Welcome to LEVEL 2 !!&lt;br&gt;&lt;br&gt;Read the questions carefully and answer them." page="page1" voice="" />
+		<prompt name="p104" text="Well done!!&lt;br&gt;&lt;br&gt;You have saved our planet&lt;br&gt;from the aliens." page="page1" voice="" />
+		<prompt name="p105" text="Welcome to LEVEL 1 !!" page="page1" voice="" />
+		<prompt name="p106" text="You did not seem to shoot all the aliens.&lt;br&gt;Come on, try again." page="page1" voice="" />
+		<prompt name="p107" text="You did not shoot the alien.&lt;br&gt;Try shooting in the next question." page="page1" voice="" />
+		
+		<prompt name="p110" text="&lt;span id='didYouNotice'&gt;Did you notice?&lt;/span&gt;&lt;br&gt;&lt;br&gt;10% of any number is same&lt;br&gt;as dividing the number by 10." page="page1" voice="" />
+		<prompt name="p120" text="&lt;span id='didYouNotice'&gt;Did you notice?&lt;/span&gt;&lt;br&gt;&lt;br&gt;20% of any number is the same as&lt;br&gt;dividing that number by 5.&lt;br&gt;If you find, dividing by 5 difficult,&lt;br&gt;you can also calculate 10% of the&lt;br&gt;number and multiply the answer&lt;br&gt;with 2." page="page1" voice="" />
+		<prompt name="p125" text="&lt;span id='didYouNotice'&gt;Did you notice?&lt;/span&gt;&lt;br&gt;&lt;br&gt;25% is nothing but one quarter of&lt;br&gt;the whole. 25% of any number is&lt;br&gt;same as dividing that number&lt;br&gt;by 4." page="page1" voice="" />
+		<prompt name="p130" text="&lt;span id='didYouNotice'&gt;Did you notice?&lt;/span&gt;&lt;br&gt;&lt;br&gt;30% of any number is same as&lt;br&gt;dividing the number by 10 and&lt;br&gt;multiplying the result with 3.&lt;br&gt;In short, calculate 10% of the&lt;br&gt;number and multiply with 3 to&lt;br&gt;get 30% of the number." page="page1" voice="" />
+		<prompt name="p140" text="&lt;span id='didYouNotice'&gt;Did you notice?&lt;/span&gt;&lt;br&gt;&lt;br&gt;40% of any number is same as&lt;br&gt;dividing the number by 10 and&lt;br&gt;multiplying the result with 4.&lt;br&gt;In short, calculate 10% of the&lt;br&gt;number and multiply with 4&lt;br&gt;to get 40% of the number." page="page1" voice="" />
+		<prompt name="p150" text="&lt;span id='didYouNotice'&gt;Did you notice?&lt;/span&gt;&lt;br&gt;&lt;br&gt;50% is nothing by half of the whole.&lt;br&gt;50% of any number is same as&lt;br&gt;dividing the number by 2&lt;br&gt;or finding half of that number." page="page1" voice="" />
+		<prompt name="p175" text="&lt;span id='didYouNotice'&gt;Did you notice?&lt;/span&gt;&lt;br&gt;&lt;br&gt;75% is three-quarters of the whole.&lt;br&gt;75% of a number is same as&lt;br&gt;multiplying the number with ¾.&lt;br&gt;Three quarters of a number is&lt;br&gt;greater than half of the number but&lt;br&gt;less than the whole of that number." page="page1" voice="" />
+	</prompts>
+	
+	<instructions>
+		<instruction name="inst1" text="Shoot the aliens!!" page="page1" voice="" />
+		<instruction name="inst2" text="RULES" page="page1" voice="" />
+		<instruction name="inst3" text="You are the shooter. You need to save the planet!!&lt;br&gt;&lt;br&gt;1. Read the question.&lt;br&gt;2. The alien is hiding in the spaceship which is the answer to the question.&lt;br&gt;3. Shoot the alien by pressing the space bar.&lt;br&gt;4. Use the left and right arrow keys to move the shooter.&lt;br&gt;&lt;br&gt;Go!! Save the planet from the aliens." page="page1" voice="" />
+		<instruction name="inst3_tablet" text="You are the shooter. You need to save the planet!!&lt;br&gt;&lt;br&gt;1. Read the question.&lt;br&gt;2. The alien is hiding in the spaceship which is the answer to the question.&lt;br&gt;3. Shoot the alien by tapping the red button on the shooter.&lt;br&gt;4. Drag or pull the shooter to move the shooter around.&lt;br&gt;&lt;br&gt;Go!! Save the planet from the aliens." page="page1" voice="" />
+		<instruction name="inst4" text="Choose any percent&lt;br&gt;to start the game." page="page1" voice="" />
+	</instructions>
+	
+	<miscellaneous>
+		<misc name="m101" text="Score: " page="page1" voice="" />
+	</miscellaneous>
+</english>
+<hindi>
+</hindi>
+<gujarati>
+</gujarati>
+</application>

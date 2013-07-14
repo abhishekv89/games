@@ -1,0 +1,107 @@
+html,body,div,p,span,canvas{
+	margin:0;
+	padding:0;
+}
+
+body {	
+	background-repeat:no-repeat;
+	font-family:Arial;
+	font-size:14px;
+	
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none; 
+	overflow:hidden;
+}
+
+
+
+
+.replay{
+	background: url('../../../../assets/replay.png');
+	width: 17px;
+	height: 16px;
+	position: relative;
+	left: 540px;
+	top: -8px;
+	cursor: pointer;
+	opacity: 0;
+	display: inline;
+	float: left;
+	
+}
+
+#container
+{
+	width: 565px;
+	height: 120px;
+	margin-left: 1em;
+	-webkit-transform-origin : left top;
+	-moz-transform :scale(1);
+	-moz-transform-origin : left top;
+	-ms-transform :scale(1);
+	-ms-transform-origin : left top;
+	-o-transform :scale(1);
+	-o-transform-origin : left top;
+	transform :scale(1);
+	transform-origin : left top;
+	
+}
+#finishflag
+{
+position: absolute;
+z-index: 2000;
+display: inline;
+float: left;
+left: 499px;
+width: 9px;
+height: 25px;
+opacity: 0;
+top: 20px;
+	
+/*	transform: skew(59deg,-60deg);
+	-ms-transform: skew(59deg,-60deg);
+	-webkit-transform: skew(59deg,-60deg); 
+	-o-transform: skew(59deg,-60deg); 
+	-moz-transform: skew(59deg,-60deg);
+	*/
+}
+
+#flag{
+position: absolute;
+z-index: 2000;
+display: inline;
+float: left;
+left: -28px;
+font-size: 13px;
+width: 18px;
+height: 21px;
+opacity: 1;
+top: -9px;
+transform: rotate(30deg);
+-ms-transform: rotate(30deg); 
+-webkit-transform: rotate(30deg);
+-o-transform: rotate(30deg); 
+-moz-transform: rotate(30deg);
+}
+
+#startflag
+{
+	position: absolute;
+	z-index: 2000;
+	display: inline;
+	float: left;
+	left: 5px;
+	width: 33px;
+	height: 20px;
+	opacity: 1;
+	top: 0px;
+}
+#start
+{
+	font-size:13px;
+	width: 32px;
+	height: 18px;
+}

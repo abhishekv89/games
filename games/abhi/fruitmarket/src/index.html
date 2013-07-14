@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />	
+	<title>Fruit Market</title>	
+	<link href="../css/style.css" rel="stylesheet" type="text/css" />
+	<script src="../../../libs/jquery-1.7.1.min.js"></script>
+	<script src="../../../libs/common.js"></script>
+	<script src="../../../libs/loadxmldoc.js"></script>
+	<script src="../../../libs/PxLoader.js"></script>
+	<script src="../../../libs/PxLoaderImage.js"></script>
+	<script src="../libs/script.js"></script>
+	<script src="../../../libs/parameterPassing.js"></script>	
+	<script>
+	var getParameters = getURLParameters();	
+	var language='fruitmarket.xml';
+	$(function()
+	{
+		interactiveObj= new questionInteractive();
+		var imageArray = new Array('~fruitmdarket.png','apple.png','background.png','banana.png','face.png','finger.png','gate.png','girl.png','girl1.png','guava.png','leftFence.png','lock2.png','mango.png','melon.png','okbutton.png','orange.png','rightF.png','road.png','smallrupee.png','sprite_images.png','stall.png','title.png','sparkie.gif');
+		var loader = new PxLoader(); 
+		$.each(imageArray,function(key,value)
+		{
+                        var pxImage = new PxLoaderImage('../assets/'+value); 
+			loader.add(pxImage); 
+		});
+		loader.addCompletionListener(function() 
+		{ 
+			   loadXML(language,function(){interactiveObj.init();});  		
+		}); 
+		loader.start();
+	});
+	</script>
+	
+</head> 
+ <body onresize="resize();" onload="resize()">
+
+ 
+<div id="container" >
+
+</div>
+
+</body>
+</html>	

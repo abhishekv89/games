@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Find the multiple</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link href="../css/style.css" rel="stylesheet" type="text/css" />
+	<script src="../../../libs/jquery.js"></script>
+	<script src="../../../libs/jquery_ui.js"></script>
+	<script src="../../../libs/jquery_ui_touch.js"></script>
+	<script src="../../../libs/common.js"></script>
+	<script src="../../../libs/parameterPassing.js"></script>
+	<script src="../../../libs/loadxmldoc.js"></script>
+	<script src="../../../libs/PxLoader.js" type="text/javascript"></script>
+	<script src="../../../libs/PxLoaderImage.js" type="text/javascript"></script>
+	<script src="../libs/script.js"></script>	
+	<script>
+		var xmlfile = 'findTheMultiple.xml';
+		var getParameters = getURLParameters();	
+		$(function(){
+			gameObj = new findTheMultiple();	
+			// Create the loader and queue our images. Images will not 
+			// begin downloading until we tell the loader to start. 
+			var imageArray = new Array(
+				'smiley.png',
+				'bg.png'				
+			);
+			var loader = new PxLoader(); 
+			$.each(imageArray,function(key,value){
+				var pxImage = new PxLoaderImage('../assets/'+value);  
+				loader.add(pxImage); 
+			}); 
+			
+			loader.addCompletionListener(function() 
+			{ 
+				loadXML(xmlfile, function() {gameObj.loadQuestion();})	
+			}); 
+	  
+			loader.start(); 		
+		});
+		
+	</script>
+</head>
+
+<body onresize="resize();" onload="resize()">
+	<div id="container">
+		<div id="loader" align="center">Loading...<img src="../../../assets/loader.gif"/></div>		
+	</div>
+</body>
+</html>

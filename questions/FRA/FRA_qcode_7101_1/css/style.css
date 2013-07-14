@@ -1,0 +1,101 @@
+html,body,div,p,span,canvas{
+	margin:0;
+	padding:0;
+}
+
+body {	
+	background-repeat:no-repeat;
+	font-family:"Comic Sans MS";
+	font-size:14px;
+	
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none; 
+	overflow:hidden;
+}
+#container
+{
+	width: 420px;
+	height: 210px;
+	
+	-webkit-transform-origin : left top;
+	-moz-transform :scale(1);
+	-moz-transform-origin : left top;
+	-ms-transform :scale(1);
+	-ms-transform-origin : left top;
+	-o-transform :scale(1);
+	-o-transform-origin : left top;
+	transform :scale(1);
+	transform-origin : left top;
+	
+}
+
+.replay{
+	background: url('../../../../assets/replay.png');
+	width: 17px;
+	height: 16px;
+	position: relative;
+	left: 310px;
+	top: -26px;
+	cursor: pointer;
+	opacity: 1;
+	display: inline;
+	float: left;
+	
+}
+
+#text
+{
+	display: inline;
+	position: absolute;
+	float: left;
+	width:180px;
+	height: 75px;
+	z-index: 5000;
+	background-color: #fd0209;
+	top:1px;
+	left: 389px;
+	
+}
+
+#dottedimage
+{
+	background-image: url("../assets/choco1.png");
+	position: absolute;
+	display: inline;
+	top:-204px;
+	opacity:0;
+	width: 187px;
+	height: 194px;
+	
+	
+}
+
+#covered
+{
+	
+	opacity:0;
+	width: 290px;
+	height: 160px;
+	background-color: #ffffff;
+	display: inline;
+	position: absolute;
+	top:-202px;
+	left:198px;
+	
+}
+#image
+{
+	position: absolute;
+	display: inline;
+	z-index: 1000;
+}
+
+#cover
+{
+	position: absolute;
+	display: inline;
+	z-index: 1000;
+}

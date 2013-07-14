@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<application name="percentage">
+<english>
+	<questions>
+		<que name="q101" text="In each square, write the product of the numbers at the respective row and column heading. Eight squares are filled for you.  Submit your answers only after you have filled all the squares. You can correct an already entered answer before you submit." page="page1" voice="" />
+		<que name="q102" text="That was easy, wasn't it?&lt;br&gt;Now you are given some of the answers.  See if you can work back to the questions!  What numbers should come as the row and column headings here?" page="page1" voice="" />
+		<que name="q103" text="Click on the smileys where you want the number revealed. Use these to find the multipliers. Also figure out a strategy to choose the 6 cells that will help you crack the grid." page="page1" voice="" />
+		<que name="q104" text="Now see if you can figure out the multipliers with fewer products revealed. Only 6 of the products will be revealed to you now! Get cracking!" page="page1" voice="" />
+		<que name="q105" text="Now try this! You can reveal two more numbers should you so require." page="page1" voice="" />
+		<que name="q106" text="Can the multipliers be found with fewer than 6 numbers revealed?&lt;br&gt;&lt;br&gt;No! At least 6 products should be known to find all multipliers without guessing randomly!&lt;br&gt;&lt;br&gt;In fact revealing just any 6 of the products will not help you figure out the multipliers! They have to be chosen wisely!&lt;br&gt;&lt;br&gt;See if you can choose the 6 products in such a way that they will help you find out all the multipliers.&lt;br&gt;&lt;br&gt;Also can you figure out a strategy that you can use to  choose the 6 products to be revealed?" page="page1" voice="" />
+		<que name="q107" text="Did you figure out a strategy to choose the 6 squares to be revealed?" page="page1" voice="" />
+		<que name="q107_part2" text="If yes, what is your strategy?" page="page1" voice="" />
+	</questions>
+	<prompts>
+		<prompt name="p101" text="Please enter all the answers before you submit." page="page1" voice="" />
+		<prompt name="p102" text="Fantastic! Great going!" page="page1" voice="" />
+		<prompt name="p103" text="Oops! Some of your answers are off the mark! Check the correct answers." page="page1" voice="" />
+		<prompt name="p104" text="Fantastic!" page="page1" voice="" />
+		<prompt name="p105" text="Some of the answers are incorrect! Better luck next time." page="page1" voice="" />
+		<prompt name="p106" text="You need more practice. Let us try another grid." page="page1" voice="" />
+		<prompt name="p107" text="Oops! Some of the values you have entered appear wrong! You may want to change some of them." page="page1" voice="" />
+		<prompt name="p108" text="Take the number back to the rack before you drag in a new one." page="page1" voice="" />
+		<prompt name="p109" text="Please give your answer." page="page1" voice="" />
+		<prompt name="p110" text="You have not revealed any numbers! You have 6 reveals left." page="page1" voice="" />
+		<prompt name="p112" text="You have #leftOpenCard# reveals left. You can reveal more cards to identify the multiplier." page="page1" voice="" />
+		<prompt name="p113" text="Reveal atleast 1 number before you drag and drop." page="page1" voice="" />
+	</prompts>
+	
+	<instructions>
+		<instruction name="inst1" text="Drag and drop the number tiles on to the header." page="page1" voice="" />
+	</instructions>
+	
+	<miscellaneous>
+		<misc name="ok" text="OK" page="1" voice="" />
+		<misc name="submit" text="Submit" page="1" voice="" />		
+		<misc name="next" text="Next" page="1" voice="" />		
+		<misc name="quit" text="Quit" page="1" voice="" />		
+		<misc name="yes" text="Yes" page="1" voice="" />		
+		<misc name="no" text="No" page="1" voice="" />		
+		<misc name="reset" text="New Problem" page="1" voice="" />		
+		<misc name="selectOne" text="Select One" page="1" voice="" />		
+		<misc name="helpBtn" text="Reveal 1 more number" page="1" voice="" />		
+		<misc name="leftOpenCard" text="#leftOpenCard# Reveals Remaining" page="1" voice="" />		
+		<misc name="score" text="Score: #score# points" page="1" voice="" />		
+		<misc name="gameOver" text="Game over!" page="1" voice="" />		
+	</miscellaneous>
+</english>
+<hindi>
+</hindi>
+<gujarati>
+</gujarati>
+</application>

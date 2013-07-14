@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<application name="percentage">
+    <english>
+        <questions>
+        </questions>
+        <prompts>
+        <prompt name="txt_1" text="Turn Clockwise" page="page1" voice="" />
+        <prompt name="txt_M" text="M" page="page1" voice="" />
+        <prompt name="txt_S" text="S" page="page1" voice="" />
+        <prompt name="txt_N" text="N" page="page1" voice="" />
+        <prompt name="txt_L" text="l" page="page1" voice="" />
+        <prompt name="txt_T" text="T" page="page1" voice="" />
+        <prompt name="txt_P" text="P" page="page1" voice="" />
+
+
+        </prompts>
+        <instructions>
+        </instructions>
+        <miscellaneous>
+        </miscellaneous>
+    </english>
+    <hindi>
+        <questions>
+        </questions>
+        <prompts>
+
+        </prompts>
+        <instructions>
+        </instructions>
+        <miscellaneous>
+        </miscellaneous>
+    </hindi>
+    <gujarati>
+        <questions>
+        </questions>
+        <prompts>
+  
+        </prompts>
+        <instructions>
+        </instructions>
+        <miscellaneous>
+        </miscellaneous>
+    </gujarati>
+</application>

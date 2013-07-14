@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<application name="percentage">
+	<english>
+		<questions>
+		</questions>
+		<prompts>
+			 <prompt name="start" text="Start" page="page1" voice=""/>
+			<prompt name="finish" text="Finish" page="page1" voice=""/>
+			
+			<prompt name="point1" text="A" page="page1" voice=""/>
+			<prompt name="point2" text="B" page="page1" voice=""/>
+			<prompt name="point3" text="C" page="page1" voice=""/>
+		</prompts>
+	
+		<instructions>
+		
+		</instructions>
+	
+		<miscellaneous>
+		
+		</miscellaneous>
+	</english>
+	<hindi>
+		<questions>
+		</questions>
+			 <prompt name="start" text="प्रारंभ" page="page1" voice=""/>
+			<prompt name="finish" text="समाप्त" page="page1" voice=""/>
+			
+			<prompt name="point1" text="एक" page="page1" voice=""/>
+			<prompt name="point2" text="बी" page="page1" voice=""/>
+			<prompt name="point3" text="सी" page="page1" voice=""/>
+		<instructions>
+		
+		</instructions>
+	
+		<miscellaneous>
+		
+		</miscellaneous>
+
+	</hindi>
+
+	<gujarati>
+		<questions>
+		</questions>
+		<prompts>
+			 <prompt name="start" text="શરૂ" page="page1" voice=""/>
+			<prompt name="finish" text="અંત" page="page1" voice=""/>
+			
+			<prompt name="point1" text="એક" page="page1" voice=""/>
+			<prompt name="point2" text="બોલ્ડ" page="page1" voice=""/>
+			<prompt name="point3" text="કૈચ" page="page1" voice=""/>
+		
+		</prompts>
+	
+		<instructions>
+		
+		</instructions>
+	
+		<miscellaneous>
+		
+		</miscellaneous>
+	</gujarati>
+</application>

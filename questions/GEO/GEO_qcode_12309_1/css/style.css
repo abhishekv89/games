@@ -1,0 +1,197 @@
+html,body,div,p,span,canvas{
+	margin:0;
+	padding:0;
+}
+
+body
+{	
+	background-repeat:no-repeat;
+	font-family:"Comic Sans MS";
+	font-size:15px;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none; 
+	overflow:hidden;
+}
+#replayButton
+{
+
+	background: url('../../../../assets/replay.png');
+	width: 17px;
+	height: 16px;
+	cursor: pointer;
+	clear: both;
+    position: absolute;
+    z-index: 2000;
+    top: 300px;
+	left: 549px;
+	display: none;
+}
+
+#container
+{
+
+	position: absolute;
+	width: 610px;
+	height: 338px;
+	border: 2px solid black;
+	border-radius: 10px;
+	-webkit-transform-origin : left top;
+	-moz-transform :scale(1);
+	-moz-transform-origin : left top;
+	-ms-transform :scale(1);
+	-ms-transform-origin : left top;
+	-o-transform :scale(1);
+	-o-transform-origin : left top;
+	transform :scale(1);
+	transform-origin : left top;
+}
+#holder
+{
+	position: absolute;
+	width: 532px;
+	height: 338px;
+	z-index: 2000;
+}
+#myCanvas
+{
+	border: 2px solid red;
+	position: absolute;
+	top: 65px;
+	left: 115px;
+}
+.arrow_left
+{
+	width: 0; 
+	height: 0; 
+	position: absolute;
+	top: 1px;
+	left: 10px;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent; 
+	border-right:10px solid black; 
+}
+.arrow_right
+{
+	width: 0; 
+	height: 0; 
+	position: absolute;
+	top: 2px;
+	left: 319px;
+
+
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent; 
+	border-right:10px solid black; 
+
+	 transform: rotate(180deg);
+    -ms-transform: rotate(180deg); 
+-webkit-transform: rotate(180deg); 
+     -o-transform: rotate(180deg); 
+   -moz-transform: rotate(180deg);
+}
+#lineTop
+{
+	position: absolute;
+	top: 70px;
+	left: 20px;
+}
+#lineTop2
+{
+	position: absolute;
+	top: 221px;
+	left: 20px;
+}
+#lineTop3
+{
+	position: absolute;
+	top: 0px;
+	left: 127px;
+
+	 transform: rotate(62deg);
+    -ms-transform: rotate(62deg); 
+-webkit-transform: rotate(62deg); 
+     -o-transform: rotate(62deg); 
+   -moz-transform: rotate(62deg);
+}
+.lineSegment
+{
+	width: 300px;
+	height: 2px;
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	background-color: black;
+}
+span
+{
+	position: absolute;
+	left: 333px;
+	top: -19px;
+	font-size: 22px;
+}
+#textLineOne
+{
+	width: 200px;
+	height: 50px;
+	position: absolute;
+	top: 56px;
+	left: 392px;
+	opacity: 0;
+	font-size: 20px;
+}
+#textLineTwo
+{
+	width: 200px;
+	height: 50px;
+	position: absolute;
+	top: 106px;
+	left: 392px;
+	opacity: 0;
+	font-size: 20px;
+}
+#label1
+{
+	position: absolute;
+	top: 92px;
+	left: 184px;
+	opacity: 0;
+	font-size: 18px;
+}
+#label2
+{
+	position: absolute;
+	top: 108px;
+	left: 139px;
+	opacity: 0;
+	font-size: 18px;
+}
+#label3
+{
+	position: absolute;
+	top: 200px;
+	left: 271px;
+	opacity: 0;
+	font-size: 18px;
+}
+#label4
+{
+	position: absolute;
+	top: 200px;
+	left: 191px;
+	opacity: 0;
+	font-size: 18px;
+}
+#labelDiagonal
+{
+	position: absolute;
+	top: -22px;
+	left: 21px;
+	 transform: rotate(-62deg);
+    -ms-transform: rotate(-62deg); 
+-webkit-transform: rotate(-62deg); 
+     -o-transform: rotate(-62deg); 
+   -moz-transform: rotate(-62deg);
+}

@@ -1,0 +1,207 @@
+#base
+{
+	background-color: #60769f;
+	top: 190px;
+	height: 100px;
+	width: 620px;
+	position: relative;	
+}
+
+html,body,div,p,span,canvas{
+	margin:0;
+	padding:0;
+}
+
+body {	
+	background-repeat:no-repeat;
+	font-family:"Comic Sans MS";
+	font-size:14px;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none; 
+	overflow:hidden;
+}
+
+#replayButton{
+	display: inline;
+	float: right;
+	background: url('../../../../assets/replay.png');
+	width: 17px;
+	height: 16px;
+	cursor: pointer;
+	opacity: 0;
+	clear: both;
+        position: absolute;
+        top:273px;
+	z-index: 2000;
+	left: 624px;
+}
+
+#container
+{
+	width: 635px;
+	height: 300px;
+	position: absolute;
+	-webkit-transform-origin : left top;
+	-moz-transform :scale(1);
+	-moz-transform-origin : left top;
+	-ms-transform :scale(1);
+	-ms-transform-origin : left top;
+	-o-transform :scale(1);
+	-o-transform-origin : left top;
+	transform :scale(1);
+	transform-origin : left top;
+
+}
+
+#pot
+{
+	
+	position: relative;
+	background-image: url("../assets/vase.png");
+	z-index: 2000;
+	top: -10px;
+	left: 428px;
+	height: 145;
+	width: 120;	
+}
+
+#pot2
+{
+
+	position: relative;
+	background-image: url("../assets/vase.png");
+	z-index: 2000;
+	top: -151px;
+	left: 150px;
+	height: 145;
+	width: 120;	
+}
+
+.blue
+{
+	background-image: url("../assets/blurmarble.png");
+	z-index: 2000;
+	width: 15px;
+	height: 17px;
+	position: absolute;
+	clear: both;
+	display: inline;
+	top: 197px;
+
+}
+
+.red
+{	
+
+	position: absolute;
+	background-image: url("../assets/redmarble.png");
+	z-index: 2000;
+	width: 40px;
+	height: 16px;
+	clear: both;
+	display: inline;
+	top: 215px;
+}
+
+.yellow
+{
+	background-image: url("../assets/yellowball.png");
+	z-index: 2000;
+	width: 56px;
+	height: 18px;
+	position: absolute;
+	clear: both;
+	display: inline;
+	top: 224px;
+}
+
+
+.green
+{
+	position: absolute;
+	background-image: url("../assets/greenball.png");
+	z-index: 2000;
+	width: 40px;
+	height: 16px;
+	clear: both;
+	display: inline;
+	top: 204px;
+
+}
+
+.black
+{
+	position: absolute;
+	background-image: url("../assets/blackstone.png");
+	z-index: 2000;
+	width: 15px;
+	height: 15px;
+	clear: both;
+	display: inline;
+	top: 201px;
+}
+
+.white
+{
+	
+	background-image: url("../assets/whitestone.png");
+	z-index: 2000;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	clear: both;
+	display: inline;
+	top: 219px;
+	
+}
+.namefirst
+{
+	
+	display: inline;
+	float: left;
+	position: relative;
+	z-index: 1000;
+	top: -144px;
+	left: 127px;
+	
+	
+}
+
+.namesecond
+{
+	display: inline;
+	float: left;
+	position: relative;
+	z-index: 1500;
+	top: -145px;
+	left: 255px;
+	
+
+}
+
+p{
+	
+	font-family: Comic Sans MS;
+	font-size: 18pt;
+	
+}
+
+#section1
+{
+	width: 10px;
+	display: inline;
+	float: left;
+	
+	
+}
+
+#section2
+{
+	width: 10px;
+		display: inline;
+	float: left;
+	
+}

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<application name="percentage">
+	<english>
+		<questions>
+		</questions>
+		<prompts>
+		
+			<prompt name="text1" text="Rule 1:-If you reach the bottom of the ladder, you climb up till the end of the ladder." page="" voice="" />
+			<prompt name="text2" text="Rule 2:-If you reach the mouth of a snake,you come down till the tail of the snake." page="" voice="" />
+			<prompt name="text3" text="Rules" page="" voice="" />
+			<prompt name="text4" text="Back" page="" voice="" />
+			
+		
+		</prompts>
+	
+		<instructions>
+		
+		</instructions>
+	
+		<miscellaneous>
+		
+		</miscellaneous>
+	</english>
+	<hindi>
+		<questions>
+		</questions>
+		<prompts>
+		
+			<prompt name="text1" text="Rule 1:-Inside Hindi hjg" page="" voice="" />
+			<prompt name="text2" text="Rule 2:-Go to the mb to thesjv  using bottom if there is a snake" page="" voice="" />
+			<prompt name="text3" text="नियम" page="" voice="" />
+			<prompt name="text4" text="वापस" page="" voice=""/>
+			
+		
+		</prompts>
+	
+		<instructions>
+		
+		</instructions>
+	
+		<miscellaneous>
+		
+		</miscellaneous>
+
+	</hindi>
+
+	<gujarati>
+		<questions>
+		</questions>
+		<prompts>
+			<prompt name="text1" text="રૂલ :આ ગુજરાતી કહેવાય રહ્યું ઇનસકહેવાય રહ્યું ઇનસકહેવાય રહ્યું ઇનસકહેવાય રહ્યું ઇનસકહેવાય રહ્યું ઇનસાઇડ નિયમ છે " page="" voice="" />
+			<prompt name="text2" text="રૂલ :-આ ગુજરાતી કહેવાય રહ્યું ઇનસાઇડ નિયમ છેઆ ગુજરાતી કહેવાય રહ્યું ઇનસાઇડ નિયમ છે" page="" voice="" />
+			<prompt name="text3" text="રૂલ" page="" voice="" />
+			<prompt name="text4" text="પીઠ" page="" voice=""/>
+		
+		</prompts>
+	
+		<instructions>
+		
+		</instructions>
+	
+		<miscellaneous>
+		
+		</miscellaneous>
+	</gujarati>
+</application>

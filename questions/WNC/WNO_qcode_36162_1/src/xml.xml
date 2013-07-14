@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<application name="percentage">
+    <english>
+        <questions>
+        </questions>
+        <prompts>
+            <prompt name="name1" text="'s Pot" page="page1" voice="" />
+           
+	  
+	 <prompt name="text1" text="text from text1" page="page1" voice="" />
+        
+        </prompts>
+        <instructions>
+        </instructions>
+        <miscellaneous>
+        </miscellaneous>
+    </english>
+    <hindi>
+        <questions>
+        </questions>
+        <prompts>
+            <prompt name="name1" text=" का पॉट" page="page1" voice="" />
+           
+        </prompts>
+        <instructions>
+        </instructions>
+        <miscellaneous>
+        </miscellaneous>
+    </hindi>
+    <gujarati>
+        <questions>
+        </questions>
+        <prompts>
+            <prompt name="name1" text=" કા પોટ" page="page1" voice="" />
+           
+            
+        </prompts>
+        <instructions>
+        </instructions>
+        <miscellaneous>
+        </miscellaneous>
+    </gujarati>
+</application>

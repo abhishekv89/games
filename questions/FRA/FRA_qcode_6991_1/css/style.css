@@ -1,0 +1,95 @@
+html,body,div,p,span,canvas{
+	margin:0;
+	padding:0;
+}
+
+body {	
+	background-repeat:no-repeat;
+	font-family:"Comic Sans MS";
+	font-size:14px;
+	
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none; 
+	overflow:hidden;
+}
+
+#container
+{
+	width: 615px;
+	height: 325px;
+	
+	-webkit-transform-origin : left top;
+	-moz-transform :scale(1);
+	-moz-transform-origin : left top;
+	-ms-transform :scale(1);
+	-ms-transform-origin : left top;
+	-o-transform :scale(1);
+	-o-transform-origin : left top;
+	transform :scale(1);
+	transform-origin : left top;
+	
+}
+
+
+
+.replay{
+	
+	width: 17px;
+	height: 16px;
+	position: relative;
+	left: 570px;
+	top: 280px;
+	cursor: pointer;
+	opacity: 1;
+	display: inline;
+	float: left;
+	
+}
+
+#text
+{
+	
+	position: absolute;
+	display: inline;
+	
+	width: 193px;
+	height: 150px;
+	top: 185px;
+	
+}
+
+#data
+{
+	position: absolute;
+	opacity: 0;
+	text-align: center;
+	font-size: 30px;
+	color: red;
+	font-weight: bold;
+	width: 193px;
+	height: 150px;
+}
+
+#myCanvas
+
+{
+	position: absolute;
+	left: 200px;
+	
+	
+}
+#Overlay
+{
+	background-image: url('../assets/image2.PNG');
+	width: 300px;
+	height: 300px;
+	visibility: hidden;
+	position: absolute;
+top: 0px;
+left: 199px;
+	z-index: 1000;
+
+}
