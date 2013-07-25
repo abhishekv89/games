@@ -1,0 +1,52 @@
+<html>
+<head>
+	<title>Color Match</title>
+	<meta charset="utf-8">
+	<link href="../css/style.css" rel="stylesheet" type="text/css"></link>
+	<link href="../bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css"></link>
+	<script src="../libs/jquery-1.10.2.js" type="text/javascript"></script>
+	<script src="../libs/jquery-ui.js" type="text/javascript"></script>
+  	<script src="../libs/common.js" type="text/javascript"></script>
+  	<script src="../libs/script.js" type="text/javascript"></script>
+  	<script src="../libs/PxLoader.js" type="text/javascript"></script>
+	<script src="../libs/PxLoaderImage.js" type="text/javascript"></script>
+	<script src="../bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="../libs/jquery.playSound.js" type="text/javascript"></script>
+	<script>
+	$(function(){
+		mangoObj= new gameInteractive();
+		var imageArray = new Array('blueTub.png','mug.png','orangeGirl.png','redDress.png','brownDog.png','duck.png','blueToothbrush.png','blueToothbrush.png','bluePen.png','pencil.png','chalk.png','yellowSock.png','greenTree.png','leaf.png','smiley1.png');
+		var loader = new PxLoader(); 
+		$.each(imageArray,function(key,value)
+		{
+            var pxImage = new PxLoaderImage('../img/'+value); 
+			loader.add(pxImage); 
+		});
+		loader.addCompletionListener(function() 
+		{ 
+			   mangoObj.init();
+		}); 
+		loader.start();
+	});
+	</script>
+</head>
+	
+<body>
+<div id="container">
+<div class="loader" align="center"><div class="loading-text">Loading...</div><div class="preloader"></div><div class="preloader1"></div></div>
+</div>
+<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    
+    <h3 id="myModalLabel"></h3>
+  </div>
+  <div class="modal-body">
+    <p id="resultText"></p>
+  </div>
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+  </div>
+</div>
+</div>
+</body>
+</html>
